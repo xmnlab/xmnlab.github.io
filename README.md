@@ -8,7 +8,7 @@ As an Open Science enthusiast, I have contributed to pyOpenSci as a package revi
 
 How to reach me: [twitter](https://twitter.com/xmnlab) and [linkedin](https://www.linkedin.com/in/ivan-ogasawara/)
 
-# Some open source projects that I've been working recently:
+### Some open source projects that I've been working recently:
 
 ## [ArtBox](https://osl-incubator.github.io/artbox/)
 
