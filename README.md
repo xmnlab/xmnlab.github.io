@@ -41,13 +41,6 @@ environment-specific configurations.
 
 ---
 
-## [fqlearn](https://osl-pocs.github.io/fqlearn/)
-
-This Project aims to facilitate the teaching of unit operations and
-thermodynamics.
-
----
-
 ## [Makim](https://osl-incubator.github.io/makim/)
 
 Makim (or makim) is based on make and focus on improve the way to define targets
