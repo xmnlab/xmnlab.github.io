@@ -61,22 +61,6 @@ and dependencies. Instead of using the Makefile format, it uses yaml format.
 
 ---
 
-## [noWorkflow](https://gems-uff.github.io/noworkflow/)
-
-The noWorkflow project aims at allowing scientists to benefit from provenance
-data analysis even when they don't use a workflow system. It transparently
-collects provenance from Python scripts and notebooks and provide tools to
-support the analysis and management of the provenance.
-
----
-
-## [PyDataStructs](https://pydatastructs.readthedocs.io/en/latest/)
-
-PyDataStructs project aims to be a Python package for various data structures
-and algorithms (including their parallel implementations).
-
----
-
 ## [SciCookie](https://osl-incubator.github.io/scicookie)
 
 SciCookie is a template developed by <https://opensciencelabs.org/> that creates
