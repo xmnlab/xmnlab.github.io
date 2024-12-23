@@ -13,7 +13,7 @@ As an Open Science enthusiast, I have contributed to pyOpenSci as a package revi
 - 😄 Pronouns: he/him
 
 
-Some projects that I've been working recently:
+Some open source projects that I've been working recently:
 
 
 ## [ArtBox](https://osl-incubator.github.io/artbox/)
