@@ -4,14 +4,9 @@ Having worked as a Developer for the last 22 years, I am now excited to topics s
 
 Additionally, I contributed to open source projects such as PyTorch, ibis-framework, and the Jupyter ecosystem. Recently, I have used technologies, libraries, and tools such as ibis-framework, pandas, Apache Arrow, PostgreSQL, OmniSciDB, MySQL, MSSQL, Django, Django-rest framework, fastapi, flask, Vue.js, JQuery, conda/conda-constructor, Docker, Argo Workflow, Apache Superset, and others.
 
-As an Open Science enthusiast, I have contributed to pyOpenSci as a package reviewer and review editor and also contributed to a community for Open Science (Open Science Labs) focused on the Latin American region.
+As an Open Science enthusiast, I have contributed to pyOpenSci as a package reviewer and review editor and also I am leading a community called Open Science Labs, focused on Open Science and Open Source projects.
 
-- 🌱 I’m currently working on the ArxLang, a compiler that aims to have Apache Arrow datatype as native datatypes.
-- 👯 I’m looking to collaborate on compiler projects
-- 🤔 I’m looking for help with [opensciencelabs](https://discord.opensciencelabs.org)
-- 📫 How to reach me: [twitter](https://twitter.com/xmnlab) and [linkedin](https://www.linkedin.com/in/ivan-ogasawara/)
-- 😄 Pronouns: he/him
-
+How to reach me: [twitter](https://twitter.com/xmnlab) and [linkedin](https://www.linkedin.com/in/ivan-ogasawara/)
 
 Some open source projects that I've been working recently:
 
