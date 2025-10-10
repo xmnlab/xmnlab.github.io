@@ -53,6 +53,15 @@
     .footer-link { opacity: .9; }
     .form-floating > label { opacity: .8; }
     .bi-check-circle-fill { color: var(--brand-1); }
+      /* Image helpers */
+    .img-cover { width: 100%; height: 100%; object-fit: cover; }
+    .figure-hero { aspect-ratio: 4 / 3; border-radius: 1.25rem; overflow: hidden; box-shadow: 0 25px 60px rgba(2,6,23,.18); }
+    .figure-hero img { transform: scale(1.02); transition: transform .6s ease; }
+    .figure-hero:hover img { transform: scale(1.06); }
+    .overlay-cta { position: relative; background: #0b1220; color: #fff; }
+    .overlay-cta .bg-img { position: absolute; inset: 0; opacity: .35; background-position: center; background-size: cover; filter: saturate(110%) contrast(110%); }
+    .overlay-cta .scrim { position: absolute; inset: 0; background: radial-gradient(1200px 400px at 10% 10%, rgba(14,165,233,.25), transparent), linear-gradient(180deg, rgba(2,6,23,.6), rgba(2,6,23,.75)); }
+    .overlay-cta .content { position: relative; z-index: 1; }
   </style>
   <script type="application/ld+json">
   {
@@ -127,6 +136,15 @@
           </div>
         </div>
         <div class="col-12 col-lg-5">
+          <figure class="figure-hero mb-4">
+            <img
+              src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1600&q=80"
+              srcset="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=800&q=70 800w, https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1600&q=80 1600w"
+              sizes="(max-width: 992px) 100vw, 520px"
+              class="img-cover"
+              alt="Mentoring session with a small team"
+              loading="eager" fetchpriority="high">
+          </figure>
           <div class="glass rounded-4 p-4 p-lg-5 shadow-soft">
             <h2 class="h5 fw-semibold">What I do</h2>
             <ul class="list-unstyled mt-3 mb-0 d-grid gap-2">
@@ -276,6 +294,10 @@
       <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
         <div class="col">
           <div class="card h-100 rounded-4 shadow-soft">
+            <div class="ratio ratio-21x9 rounded-top-4 overflow-hidden">
+              <img class="img-cover" alt="Mentoring cohort in a workshop" loading="lazy"
+                   src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80">
+            </div>
             <div class="card-body p-4">
               <span class="badge text-bg-light border case-tag">Community & Programs</span>
               <h3 class="h5 mt-2">OSL Incubator & Internship Programs</h3>
@@ -286,6 +308,10 @@
         </div>
         <div class="col">
           <div class="card h-100 rounded-4 shadow-soft">
+            <div class="ratio ratio-21x9 rounded-top-4 overflow-hidden">
+              <img class="img-cover" alt="Open source code collaboration" loading="lazy"
+                   src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80">
+            </div>
             <div class="card-body p-4">
               <span class="badge text-bg-light border case-tag">Open Source</span>
               <h3 class="h5 mt-2">Contributions: PyTorch, Ibis, Jupyter</h3>
@@ -296,6 +322,10 @@
         </div>
         <div class="col">
           <div class="card h-100 rounded-4 shadow-soft">
+            <div class="ratio ratio-21x9 rounded-top-4 overflow-hidden">
+              <img class="img-cover" alt="Scientific data visualization" loading="lazy"
+                   src="https://images.unsplash.com/photo-1581091013053-1ace262f3e9b?auto=format&fit=crop&w=1200&q=80">
+            </div>
             <div class="card-body p-4">
               <span class="badge text-bg-light border case-tag">Science & Public Health</span>
               <h3 class="h5 mt-2">Research Software & Data Platforms</h3>
@@ -303,6 +333,41 @@
               <a class="link-underline" href="#contact">Discuss your context →</a>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSPIRATION STRIP -->
+  <section id="inspiration" class="py-5 bg-body-tertiary border-top border-bottom">
+    <div class="container">
+      <div class="row mb-4 align-items-end">
+        <div class="col">
+          <h2 class="section-title mb-1">Inspiration & momentum</h2>
+          <p class="text-body-secondary mb-0">A few moments that reflect the kind of work I do.</p>
+        </div>
+      </div>
+      <div class="row g-4 row-cols-1 row-cols-md-3">
+        <div class="col">
+          <figure class="rounded-4 overflow-hidden shadow-soft mb-2 ratio ratio-4x3">
+            <img class="img-cover" loading="lazy" alt="Whiteboard architecture session"
+                 src="https://images.unsplash.com/photo-1529336953121-4a1121188589?auto=format&fit=crop&w=1400&q=80">
+          </figure>
+          <div class="small text-body-secondary">Clarity through collaborative architecture reviews.</div>
+        </div>
+        <div class="col">
+          <figure class="rounded-4 overflow-hidden shadow-soft mb-2 ratio ratio-4x3">
+            <img class="img-cover" loading="lazy" alt="Mentorship with laptops"
+                 src="https://images.unsplash.com/photo-1523246619337-0f2fef1a6af8?auto=format&fit=crop&w=1400&q=80">
+          </figure>
+          <div class="small text-body-secondary">Guided contribution pathways and skill‑building.</div>
+        </div>
+        <div class="col">
+          <figure class="rounded-4 overflow-hidden shadow-soft mb-2 ratio ratio-4x3">
+            <img class="img-cover" loading="lazy" alt="Team collaboration on a project"
+                 src="https://images.unsplash.com/photo-1552581234-26160f608093?auto=format&fit=crop&w=1400&q=80">
+          </figure>
+          <div class="small text-body-secondary">Turning plans into delivery with lightweight leadership.</div>
         </div>
       </div>
     </div>
@@ -376,20 +441,28 @@
           <div class="carousel-item active">
             <div class="card rounded-4 shadow-soft">
               <div class="card-body p-4 p-md-5">
-                <figure class="mb-0">
-                  <blockquote class="blockquote lead-sm">Ivan combines systems thinking with practical empathy. Our roadmap went from fuzzy to actionable in two weeks.</blockquote>
-                  <figcaption class="blockquote-footer mt-3">Senior Engineer, Research Lab</figcaption>
-                </figure>
+                <div class="d-flex align-items-start gap-3">
+                  <img class="avatar" alt="Portrait of a senior engineer"
+                       src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=200&q=60" loading="lazy">
+                  <figure class="mb-0">
+                    <blockquote class="blockquote lead-sm mb-1">Ivan combines systems thinking with practical empathy. Our roadmap went from fuzzy to actionable in two weeks.</blockquote>
+                    <figcaption class="blockquote-footer mt-1">Senior Engineer, Research Lab</figcaption>
+                  </figure>
+                </div>
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="card rounded-4 shadow-soft">
               <div class="card-body p-4 p-md-5">
-                <figure class="mb-0">
-                  <blockquote class="blockquote lead-sm">Clear, humble, and effective. He upgraded our contribution workflow and mentored two new maintainers.</blockquote>
-                  <figcaption class="blockquote-footer mt-3">OSS Maintainer, Data Project</figcaption>
-                </figure>
+                <div class="d-flex align-items-start gap-3">
+                  <img class="avatar" alt="Portrait of an OSS maintainer"
+                       src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=60" loading="lazy">
+                  <figure class="mb-0">
+                    <blockquote class="blockquote lead-sm mb-1">Clear, humble, and effective. He upgraded our contribution workflow and mentored two new maintainers.</blockquote>
+                    <figcaption class="blockquote-footer mt-1">OSS Maintainer, Data Project</figcaption>
+                  </figure>
+                </div>
               </div>
             </div>
           </div>
@@ -402,6 +475,24 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA WITH IMAGE -->
+  <section class="overlay-cta py-5 py-lg-6 border-top">
+    <div class="bg-img" style="background-image:url('https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=1600&q=80');"></div>
+    <div class="scrim"></div>
+    <div class="content container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-9">
+          <h2 class="display-6 fw-bold">Ready to move from ideas to impact?</h2>
+          <p class="lead-sm mt-2 mb-4">If you’re looking for clarity, momentum, and a pragmatic partner, let’s talk. I’ll recommend the fastest path—intro call, workshop, or architecture review.</p>
+          <div class="d-flex gap-2 justify-content-center">
+            <a href="#contact" class="btn btn-light btn-lg px-4"><i class="bi bi-telephone-outbound me-2"></i>Request a proposal</a>
+            <a href="mailto:me@ivanogasawara.com" class="btn btn-outline-light btn-lg px-4"><i class="bi bi-envelope-at me-2"></i>Email me</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
