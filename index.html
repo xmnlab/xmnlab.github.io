@@ -200,20 +200,72 @@
       <div class="row align-items-end mb-3">
         <div class="col"><h2 class="section-title mb-0">Stories about Ivan</h2></div>
       </div>
-      <div class="row g-4">
-        <div class="col-12 col-lg-10">
-          <div class="soft-card p-4 p-md-5 bg-white soft-shadow">
-            <div class="d-flex align-items-start gap-3">
-              <img src="images/testimonials/Sandro-Loch.jpg" alt="Portrait of Sandro Loch" class="rounded-circle" style="width:56px;height:56px;object-fit:cover">
-              <figure class="mb-0">
-                <blockquote class="blockquote quote mb-2">Ivan Ogasawara is the best mentor I have encountered in the tech field in recent years. He has a remarkable ability to see beyond technical gaps and unlock each person’s potential in ways they might not even imagine. Ivan is the person you turn to with any technical question; he not only finds the right answers but presents them in a clear, structured, and memorable way, almost as if writing a detailed post you can easily refer back to. He constantly encourages and seeks out the best in everyone, equipping each individual with the tools and confidence to stand on their own two feet. Ivan is truly a natural-born mentor who inspires growth and excellence in all who work with him.</blockquote>
-                <figcaption class="blockquote-footer mt-1">
-                  Sandro Loch — Research Software Engineer, LiteRev (Brazil)
-                </figcaption>
-              </figure>
+
+      <div id="storiesCarousel" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="row g-4">
+              <!-- Card 1: Sandro -->
+              <div class="col-md-6 col-xl-4">
+                <div class="card h-100 soft-shadow">
+                  <div class="card-body p-4">
+                    <div class="d-flex align-items-start gap-3 mb-3">
+                      <img src="images/testimonials/Sandro-Loch.jpg" alt="Portrait of Sandro Loch" class="rounded-circle" style="width:56px;height:56px;object-fit:cover">
+                      <div>
+                        <div class="fw-semibold">Sandro Loch</div>
+                        <div class="small text-secondary">Research Software Engineer · LiteRev (Brazil)</div>
+                      </div>
+                    </div>
+                    <p class="mb-0">Ivan Ogasawara is the best mentor I have encountered in the tech field in recent years. He has a remarkable ability to see beyond technical gaps and unlock each person’s potential in ways they might not even imagine. Ivan is the person you turn to with any technical question; he not only finds the right answers but presents them in a clear, structured, and memorable way, almost as if writing a detailed post you can easily refer back to. He constantly encourages and seeks out the best in everyone, equipping each individual with the tools and confidence to stand on their own two feet. Ivan is truly a natural-born mentor who inspires growth and excellence in all who work with him.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 2: placeholder CTA -->
+              <div class="col-md-6 col-xl-4">
+                <div class="card h-100 soft-shadow">
+                  <div class="card-body p-4 d-flex flex-column">
+                    <div class="fw-semibold mb-2">Your story here</div>
+                    <p class="text-secondary flex-grow-1">Have we worked together? Share how mentoring or a workshop helped your journey.</p>
+                    <a class="btn btn-primary mt-2 align-self-start" href="mailto:me@ivanogasawara.com?subject=Testimonial&body=Hi%20Ivan%2C%20here%27s%20my%20story%3A">Send a testimonial</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 3: placeholder CTA -->
+              <div class="col-md-6 col-xl-4">
+                <div class="card h-100 soft-shadow">
+                  <div class="card-body p-4 d-flex flex-column">
+                    <div class="fw-semibold mb-2">Your story here</div>
+                    <p class="text-secondary flex-grow-1">Briefly describe the challenge, how we worked, and what changed.</p>
+                    <a class="btn btn-outline-primary mt-2 align-self-start" href="mailto:me@ivanogasawara.com?subject=Testimonial">Contribute a note</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+
+          <!-- (Optional) Slide 2 template: duplicate and replace with real stories when available -->
+          <!--
+          <div class="carousel-item">
+            <div class="row g-4">
+              <div class="col-md-6 col-xl-4">...card...</div>
+              <div class="col-md-6 col-xl-4">...card...</div>
+              <div class="col-md-6 col-xl-4">...card...</div>
+            </div>
+          </div>
+          -->
         </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#storiesCarousel" data-bs-slide="prev" aria-label="Previous stories">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#storiesCarousel" data-bs-slide="next" aria-label="Next stories">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
   </section>
