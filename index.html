@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="light">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -17,12 +17,16 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
   <style>
     :root {
-      --brand-1: #0ea5e9; /* sky-500 */
-      --brand-2: #22d3ee; /* cyan-400 */
-      --brand-3: #6366f1; /* indigo-500 */
-      --bg-gradient: radial-gradient(1200px 600px at 10% 10%, rgba(34,211,238,.18), transparent),
-                     radial-gradient(900px 500px at 90% 20%, rgba(14,165,233,.18), transparent),
-                     linear-gradient(180deg, rgba(99,102,241,.10), transparent 50%);
+      /* Warm, optimistic palette */
+      --brand-1: #86efac; /* light green */
+      --brand-2: #38bdf8; /* light blue */
+      --brand-3: #fdba74; /* light orange */
+      --ink-1: #0f172a;   /* slate-900 for headings */
+      --ink-2: #475569;   /* slate-600 for body */
+      --bg-gradient:
+        radial-gradient(1000px 500px at 5% 0%, rgba(134,239,172,.25), transparent),
+        radial-gradient(800px 400px at 95% 10%, rgba(56,189,248,.22), transparent),
+        linear-gradient(180deg, #f0fdf4 0%, #ffffff 60%);
     }
     html, body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", sans-serif; letter-spacing: .1px; }
     .navbar-brand strong { letter-spacing: .5px; }
@@ -30,13 +34,9 @@
       position: relative; isolation: isolate; overflow: hidden;
       background: var(--bg-gradient);
     }
-    .hero::after {
-      content: ""; position: absolute; inset: -20% -10% auto -10%; height: 110%; z-index: -1;
-      background: radial-gradient(1200px 400px at 50% -10%, rgba(255,255,255,.35), rgba(255,255,255,0));
-      filter: blur(60px); opacity: .5; pointer-events: none;
-    }
+    .hero::after { content: ""; position: absolute; inset: -20% -10% auto -10%; height: 110%; z-index: -1; background: radial-gradient(1200px 420px at 50% -10%, rgba(255,255,255,.65), rgba(255,255,255,0)); filter: blur(50px); opacity: .6; pointer-events: none; }
     .glass { background: rgba(255,255,255,.65); backdrop-filter: saturate(140%) blur(8px); border: 1px solid rgba(255,255,255,.5); }
-    [data-bs-theme="dark"] .glass { background: rgba(15, 23, 42, .55); border-color: rgba(255,255,255,.08); }
+    
     .chip { border: 1px solid rgba(0,0,0,.08); padding: .4rem .7rem; border-radius: 999px; font-weight: 500; }
     [data-bs-theme="dark"] .chip { border-color: rgba(255,255,255,.16); }
     .section-title { font-weight: 700; letter-spacing: .4px; }
@@ -96,7 +96,7 @@
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
           <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-          <li class="nav-item ms-lg-2"><button class="btn btn-sm btn-outline-secondary" id="themeToggle" aria-label="Toggle theme"><i class="bi bi-moon-stars"></i></button></li>
+          
         </ul>
       </div>
     </div>
@@ -108,8 +108,8 @@
       <div class="row align-items-center g-4">
         <div class="col-12 col-lg-7">
           <span class="badge rounded-pill text-bg-primary-subtle border border-primary-subtle mb-3">Consulting · Mentoring · Open‑Source Leadership</span>
-          <h1 class="display-5 fw-bold mb-3">I help teams ship reliable software and grow their people.</h1>
-          <p class="lead text-body-secondary mb-4">Architecture reviews, open‑source strategy, and pragmatic mentorship. Focused on results, humility, and clear communication.</p>
+          <h1 class="display-5 fw-bold mb-3" style="color:var(--ink-1)">I mentor teams and people to build meaningful technology—<span class="text-primary">and enjoy the journey</span>.</h1>
+          <p class="lead mb-4" style="color:var(--ink-2)">Warm, clear guidance for your next chapter: architecture decisions, contributor journeys, and leadership habits that make work feel human.</p>
           <div class="d-flex flex-wrap gap-2">
             <a href="#contact" class="btn btn-gradient btn-lg px-4"><i class="bi bi-calendar2-check me-2"></i>Book a 30‑min intro call</a>
             <a href="#services" class="btn btn-outline-primary btn-lg px-4"><i class="bi bi-diagram-3 me-2"></i>Explore services</a>
@@ -160,12 +160,11 @@
 
       <!-- Social proof chips -->
       <div class="d-flex flex-wrap gap-2 mt-4">
-        <span class="chip">Google Summer of Code</span>
-        <span class="chip">NumFOCUS</span>
-        <span class="chip">Jupyter ecosystem</span>
-        <span class="chip">PyTorch</span>
-        <span class="chip">Ibis</span>
-        <span class="chip">Public Health & Research</span>
+        <span class="chip">Google Summer of Code (Mentoring Org)</span>
+        <span class="chip">Open Science Labs</span>
+        <span class="chip">Mentorship & Community</span>
+        <span class="chip">Research & Public Health</span>
+        <span class="chip">Bilingual/Trilingual</span>
       </div>
     </div>
   </header>
@@ -234,8 +233,8 @@
     <div class="container">
       <div class="row mb-4">
         <div class="col">
-          <h2 class="section-title mb-1">Simple, effective process</h2>
-          <p class="text-body-secondary mb-0">From clarity to momentum.</p>
+          <h2 class="section-title mb-1">Simple, human‑centered process</h2>
+          <p class="text-body-secondary mb-0">Clarity first, then steady momentum.</p>
         </div>
       </div>
       <div class="row g-4 row-cols-1 row-cols-md-3">
@@ -243,10 +242,10 @@
           <div class="card h-100 rounded-4">
             <div class="card-body p-4">
               <div class="d-flex align-items-start gap-3">
-                <div class="badge bg-primary-subtle text-primary rounded-3 p-2"><i class="bi bi-search fs-5"></i></div>
+                <div class="badge bg-success-subtle text-success rounded-3 p-2"><i class="bi bi-emoji-smile fs-5"></i></div>
                 <div>
-                  <h3 class="h6 mb-1">1) Discovery</h3>
-                  <p class="mb-0 text-body-secondary lead-sm">A free intro call to understand goals, constraints, and success criteria.</p>
+                  <h3 class="h6 mb-1">1) Listen</h3>
+                  <p class="mb-0 text-body-secondary lead-sm">A kind, free intro call to understand your story, goals, and constraints.</p>
                 </div>
               </div>
             </div>
@@ -256,10 +255,10 @@
           <div class="card h-100 rounded-4">
             <div class="card-body p-4">
               <div class="d-flex align-items-start gap-3">
-                <div class="badge bg-primary-subtle text-primary rounded-3 p-2"><i class="bi bi-map fs-5"></i></div>
+                <div class="badge bg-info-subtle text-info rounded-3 p-2"><i class="bi bi-map fs-5"></i></div>
                 <div>
-                  <h3 class="h6 mb-1">2) Rapid Roadmap</h3>
-                  <p class="mb-0 text-body-secondary lead-sm">1–2 weeks to deliver an architecture review, key risks, and a 90‑day plan.</p>
+                  <h3 class="h6 mb-1">2) Co‑create a path</h3>
+                  <p class="mb-0 text-body-secondary lead-sm">A light, actionable roadmap that balances results with well‑being.</p>
                 </div>
               </div>
             </div>
@@ -269,12 +268,53 @@
           <div class="card h-100 rounded-4">
             <div class="card-body p-4">
               <div class="d-flex align-items-start gap-3">
-                <div class="badge bg-primary-subtle text-primary rounded-3 p-2"><i class="bi bi-graph-up-arrow fs-5"></i></div>
+                <div class="badge bg-warning-subtle text-warning rounded-3 p-2"><i class="bi bi-heart fs-5"></i></div>
                 <div>
-                  <h3 class="h6 mb-1">3) Ongoing Advisory</h3>
-                  <p class="mb-0 text-body-secondary lead-sm">Monthly cadence for strategy sessions and async support to keep momentum.</p>
+                  <h3 class="h6 mb-1">3) Walk together</h3>
+                  <p class="mb-0 text-body-secondary lead-sm">Ongoing advisory and mentorship that feels supportive, not heavy.</p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUES / HEART -->
+  <section id="values" class="py-5">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col">
+          <h2 class="section-title mb-1">Heart of the work</h2>
+          <p class="text-body-secondary mb-0">The feelings clients report—beyond the deliverables.</p>
+        </div>
+      </div>
+      <div class="row g-4 row-cols-1 row-cols-md-3">
+        <div class="col">
+          <div class="card h-100 rounded-4 shadow-soft">
+            <div class="card-body p-4">
+              <div class="d-inline-flex align-items-center justify-content-center bg-success-subtle text-success rounded-3 p-2 mb-3"><i class="bi bi-brightness-high fs-5"></i></div>
+              <h3 class="h6">Clarity</h3>
+              <p class="text-body-secondary lead-sm mb-0">Complex topics become simple and hopeful. You know what to do next.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 rounded-4 shadow-soft">
+            <div class="card-body p-4">
+              <div class="d-inline-flex align-items-center justify-content-center bg-info-subtle text-info rounded-3 p-2 mb-3"><i class="bi bi-people-heart fs-5"></i></div>
+              <h3 class="h6">Care</h3>
+              <p class="text-body-secondary lead-sm mb-0">Progress with empathy. Mentorship that respects your pace and context.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 rounded-4 shadow-soft">
+            <div class="card-body p-4">
+              <div class="d-inline-flex align-items-center justify-content-center bg-warning-subtle text-warning rounded-3 p-2 mb-3"><i class="bi bi-stars fs-5"></i></div>
+              <h3 class="h6">Confidence</h3>
+              <p class="text-body-secondary lead-sm mb-0">Habits and systems that make good work feel joyful and repeatable.</p>
             </div>
           </div>
         </div>
@@ -301,7 +341,7 @@
             <div class="card-body p-4">
               <span class="badge text-bg-light border case-tag">Community & Programs</span>
               <h3 class="h5 mt-2">OSL Incubator & Internship Programs</h3>
-              <p class="text-body-secondary lead-sm">Designed and led contributor pathways, mentoring cohorts, and governance templates; supported Google Summer of Code via NumFOCUS.</p>
+              <p class="text-body-secondary lead-sm">Designed and led contributor pathways, mentoring cohorts, and governance templates; supported Google Summer of Code as a mentoring organization.</p>
               <a class="link-underline" href="#contact">Ask for a short case note →</a>
             </div>
           </div>
@@ -481,7 +521,7 @@
 
   <!-- CTA WITH IMAGE -->
   <section class="overlay-cta py-5 py-lg-6 border-top">
-    <div class="bg-img" style="background-image:url('https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=1600&q=80');"></div>
+    <div class="bg-img" style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80');"></div>
     <div class="scrim"></div>
     <div class="content container">
       <div class="row justify-content-center text-center">
@@ -587,16 +627,6 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <script>
-    // Theme toggle (remembers preference)
-    const themeBtn = document.getElementById('themeToggle');
-    const storedTheme = localStorage.getItem('theme');
-    const preferredDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const setTheme = (t) => { document.documentElement.setAttribute('data-bs-theme', t); localStorage.setItem('theme', t); themeBtn.innerHTML = t === 'dark' ? '<i class="bi bi-sun"></i>' : '<i class="bi bi-moon-stars"></i>'; }
-    setTheme(storedTheme || (preferredDark ? 'dark' : 'light'));
-    themeBtn.addEventListener('click', () => {
-      const t = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark'; setTheme(t);
-    });
-
     // Year
     document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -610,9 +640,7 @@
       const budget = document.getElementById('budget').value;
       const message = document.getElementById('message').value.trim();
       const subject = encodeURIComponent('New inquiry from ' + name);
-      const body = encodeURIComponent(
-        `Name: ${name}\nEmail: ${email}\nOrganization: ${org}\nTimeline: ${timeline}\nBudget: ${budget}\n\nMessage:\n${message}`
-      );
+      const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nOrganization: ${org}\nTimeline: ${timeline}\nBudget: ${budget}\n\nMessage:\n${message}`);
       window.location.href = `mailto:me@ivanogasawara.com?subject=${subject}&body=${body}`;
     });
   </script>
