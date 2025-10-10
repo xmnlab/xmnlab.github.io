@@ -21,7 +21,7 @@
     }
     html,body{font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", sans-serif; color:var(--ink-2)}
     h1,h2,h3,h4{font-family: Fraunces, Georgia, serif; color:var(--ink-1)}
-    .navbar{background:transparent; transition: background-color .3s ease, box-shadow .3s ease, border-color .3s ease}
+    .navbar{background:transparent !important; border:0 !important; box-shadow:none !important}
     .btn-primary{background:var(--brand); border-color:var(--brand)}
     .btn-primary:hover{filter:brightness(.95)}
     .btn-outline-primary{color:var(--brand); border-color:var(--brand)}
@@ -43,13 +43,12 @@
     .bg-peach{background:#fff7ed}
     .ratio-portrait{aspect-ratio:3/4}
     .footer-link{opacity:.9}
-  .navbar-overlay{background:transparent}
-    .navbar-overlay.is-scrolled{background:#fff; border-bottom:1px solid rgba(2,6,23,.08); box-shadow:0 8px 24px rgba(2,6,23,.05)}
+  /* navbar overlay removed */
   </style>
 </head>
 <body>
   <!-- NAV -->
-  <nav class="navbar navbar-expand-lg sticky-top navbar-overlay">
+  <nav class="navbar navbar-expand-lg bg-transparent">
     <div class="container py-2">
       <a class="navbar-brand fw-semibold" href="#">Ivan Ogasawara</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -324,16 +323,6 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
   <script>
-    // Navbar overlay → solid on scroll
-    const nav = document.querySelector('.navbar-overlay');
-    const onScroll = () => {
-      if (!nav) return;
-      if (window.scrollY > 16) { nav.classList.add('is-scrolled'); }
-      else { nav.classList.remove('is-scrolled'); }
-    };
-    onScroll();
-    window.addEventListener('scroll', onScroll, { passive: true });
-
     document.getElementById('year').textContent = new Date().getFullYear();
     document.getElementById('contact-form').addEventListener('submit', function (e) {
       e.preventDefault();
