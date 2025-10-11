@@ -44,6 +44,7 @@
     .ratio-portrait{aspect-ratio:3/4}
     .footer-link{opacity:.9}
   /* navbar overlay removed */
+  .sponsor-embed iframe{width:100%;max-width:600px;height:225px;border:0}
   </style>
 </head>
 <body>
@@ -86,8 +87,7 @@
         </div>
         <div class="col-12 col-lg-6">
           <figure class="figure-hero soft-shadow">
-            <img class="img-cover" alt="Ivan mentoring a small group at a whiteboard" loading="eager" fetchpriority="high"
-              src="https://images.unsplash.com/photo-1531988042231-d39a9cc12a9a?auto=format&fit=crop&w=1400&q=80">
+            <img class="img-cover" alt="Ivan mentoring a small group at a whiteboard" loading="eager" fetchpriority="high" src="/images/Ivan-Ogasawara.jpg">
           </figure>
         </div>
       </div>
@@ -321,6 +321,21 @@
     </div>
   </section>
 
+  <!-- SPONSOR -->
+  <section id="sponsor" class="py-5 bg-mint">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-8">
+          <h2 class="section-title mb-2">Support my open work</h2>
+          <p class="mb-4">If my mentoring, tools, or community work has helped you or your team, you can support future work via GitHub Sponsors.</p>
+          <div class="sponsor-embed d-flex justify-content-center">
+            <iframe src="https://github.com/sponsors/xmnlab/card" title="Sponsor Ivan Ogasawara"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- CONTACT -->
   <section id="contact" class="py-5 border-top">
     <div class="container">
@@ -396,7 +411,7 @@
   <div class="divider"></div>
   <footer class="py-4">
     <div class="container small text-secondary d-flex flex-wrap justify-content-between align-items-center gap-3">
-      <div>© <span id="year"></span> Ivan Ogasawara • <a class="footer-link" href="#work-with-me">Work with me</a> • <a class="footer-link" href="#speaking">Speaking</a> • <a class="footer-link" href="#contact">Contact</a></div>
+      <div>© <span id="year"></span> Ivan Ogasawara • <a class="footer-link" href="#work-with-me">Work with me</a> • <a class="footer-link" href="#speaking">Training &amp; Workshops<\/a> • <a class="footer-link" href="#contact">Contact</a></div>
       <div class="sig">Kindness · Craft · Clarity</div>
     </div>
   </footer>
