@@ -623,13 +623,28 @@
       var cardBody = btn.closest('.card-body');
       var preview = cardBody ? cardBody.querySelector('.preview') : null;
 
-      // Hide preview immediately on start of expand; show it back on start of collapse
+      // Update label immediately on click based on aria-expanded (Bootstrap toggles this)
+      btn.addEventListener('click', function(){
+        setTimeout(function(){
+          var expanded = btn.getAttribute('aria-expanded') === 'true';
+          btn.textContent = expanded ? 'Read less' : 'Read more';
+        }, 0);
+      });
+
+      // Also keep collapse event listeners as a fallback
       target.addEventListener('show.bs.collapse', function(){
-        btn.textContent = 'Read less';
         if(preview) preview.classList.add('d-none');
         var activeItem = document.querySelector('#storiesCarousel .carousel-item.active');
         if(activeItem){activeItem.style.height='auto';}
       });
+      target.addEventListener('hide.bs.collapse', function(){
+        if(preview) preview.classList.remove('d-none');
+        var activeItem = document.querySelector('#storiesCarousel .carousel-item.active');
+        if(activeItem){activeItem.style.height='auto';}
+      });
+      target.addEventListener('shown.bs.collapse', function(){ btn.textContent = 'Read less'; });
+      target.addEventListener('hidden.bs.collapse', function(){ btn.textContent = 'Read more'; });
+    });
       target.addEventListener('hide.bs.collapse', function(){
         btn.textContent = 'Read more';
         if(preview) preview.classList.remove('d-none');
