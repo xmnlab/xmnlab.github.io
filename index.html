@@ -50,6 +50,14 @@
   
   .clamp-3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
   #storiesCarousel .carousel-inner{overflow:visible}
+  #storiesCarousel .carousel-inner{overflow:visible}
+  /* Reduce control hit areas so they don't overlay the first/last cards */
+  #storiesCarousel .carousel-control-prev,
+  #storiesCarousel .carousel-control-next{width:48px; pointer-events:none}
+  #storiesCarousel .carousel-control-prev .carousel-control-prev-icon,
+  #storiesCarousel .carousel-control-next .carousel-control-next-icon{pointer-events:auto}
+  /* Ensure card content is clickable above any overlays */
+  #storiesCarousel .card{position:relative; z-index:2}
   </style>
 </head>
 <body>
