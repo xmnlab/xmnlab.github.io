@@ -45,6 +45,9 @@
     .footer-link{opacity:.9}
   /* navbar overlay removed */
   .sponsor-embed iframe{width:100%;max-width:600px;height:225px;border:0}
+    #orgsCarousel .carousel-indicators{position:static;margin-top:.75rem}
+  #orgsCarousel .carousel-indicators [data-bs-target]{width:8px;height:8px;border-radius:50%;background-color:rgba(15,23,42,.25)}
+  #orgsCarousel .carousel-indicators .active{background-color:var(--brand)}
   </style>
 </head>
 <body>
@@ -362,7 +365,12 @@
         <div class="col"><h2 class="section-title mb-0">Organizations I’ve Contributed To</h2></div>
       </div>
 
-      <div id="orgsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false" data-bs-touch="true" data-bs-wrap="true">
+      <div id="orgsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000" data-bs-pause="hover" data-bs-touch="true" data-bs-wrap="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#orgsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#orgsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#orgsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
         <div class="carousel-inner">
           <!-- Slide 1 -->
           <div class="carousel-item active">
