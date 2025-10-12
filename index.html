@@ -65,6 +65,15 @@
   #storiesCarousel .carousel-inner{overflow:visible}
   /* Hide preview when a card's collapse is open (robust, CSS-level) */
   #stories .card-body:has(.collapse.show) .preview, #stories .card-body:has(.collapsing) .preview{display:none !important}
+
+  /* Testimonials: hide preview while full text is opening/open */
+  #stories .card-body:has(.collapse.show) .preview,
+  #stories .card-body:has(.collapsing) .preview { display: none !important; }
+
+  /* Ensure card content clicks aren't blocked by carousel controls */
+  #storiesCarousel .carousel-inner { overflow: visible; }
+  #stories .card-body { display: flex; flex-direction: column; }
+
   </style>
 </head>
 <body>
@@ -245,7 +254,6 @@
     </div>
   </section>
 
-  <!-- NOTES / JOURNAL FEEL -->
   <!-- STORIES / TESTIMONIALS -->
   <section id="stories" class="py-5">
     <div class="container">
@@ -261,7 +269,7 @@
               <!-- Card 1: Sandro -->
               <div class="col-md-6 col-xl-4">
                 <div class="card h-100 soft-shadow">
-                  <div class="card-body p-4">
+                  <div class="card-body p-4 d-flex flex-column">
                     <div class="d-flex align-items-start gap-3 mb-3">
                       <img src="images/testimonials/Sandro-Loch.jpg" alt="Portrait of Sandro Loch" class="rounded-circle" style="width:56px;height:56px;object-fit:cover">
                       <div>
@@ -269,11 +277,30 @@
                         <div class="small text-secondary">Research Software Engineer · LiteRev (Brazil)</div>
                       </div>
                     </div>
-                    <p class="mb-2 clamp-3 fw-lighter fs-6 text preview">Ivan Ogasawara is the best mentor I have encountered in the tech field in recent years. He has a remarkable ability to see beyond technical gaps and unlock each person’s potential.</p>
-                    <div class="collapse" id="story-sandro">
-                      <p class="mb-0 fw-lighter fs-6 text">Ivan Ogasawara is the best mentor I have encountered in the tech field in recent years. He has a remarkable ability to see beyond technical gaps and unlock each person’s potential in ways they might not even imagine. Ivan is the person you turn to with any technical question; he not only finds the right answers but presents them in a clear, structured, and memorable way, almost as if writing a detailed post you can easily refer back to. He constantly encourages and seeks out the best in everyone, equipping each individual with the tools and confidence to stand on their own two feet. Ivan is truly a natural-born mentor who inspires growth and excellence in all who work with him.</p>
+
+                    <!-- Preview + Read more -->
+                    <div class="preview">
+                      <p class="mb-2 clamp-3 fw-lighter fs-6 text">Ivan Ogasawara is the best mentor I have encountered in the tech field in recent years. He has a remarkable ability to see beyond technical gaps and unlock each person’s potential.</p>
+                      <button class="btn btn-link p-0 mt-2 align-self-start"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#story-sandro"
+                              aria-expanded="false"
+                              aria-controls="story-sandro">Read more</button>
                     </div>
-                    <button class="btn btn-link p-0 mt-2 toggle-more align-self-start" type="button" data-bs-toggle="collapse" data-bs-target="#story-sandro" aria-expanded="false" aria-controls="story-sandro">Read more</button>
+
+                    <!-- Full content + Show less -->
+                    <div class="collapse" id="story-sandro">
+                      <p class="mb-0 fw-lighter fs-6 text">
+                        Ivan Ogasawara is the best mentor I have encountered in the tech field in recent years. He has a remarkable ability to see beyond technical gaps and unlock each person’s potential in ways they might not even imagine. Ivan is the person you turn to with any technical question; he not only finds the right answers but presents them in a clear, structured, and memorable way, almost as if writing a detailed post you can easily refer back to. He constantly encourages and seeks out the best in everyone, equipping each individual with the tools and confidence to stand on their own two feet. Ivan is truly a natural-born mentor who inspires growth and excellence in all who work with him.
+                      </p>
+                      <button class="btn btn-link p-0 mt-2 align-self-start"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#story-sandro"
+                              aria-expanded="true"
+                              aria-controls="story-sandro">Show less</button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -281,7 +308,7 @@
               <!-- Card 2: Yuvi -->
               <div class="col-md-6 col-xl-4">
                 <div class="card h-100 soft-shadow">
-                  <div class="card-body p-4">
+                  <div class="card-body p-4 d-flex flex-column">
                     <div class="d-flex align-items-start gap-3 mb-3">
                       <img src="https://avatars.githubusercontent.com/u/128018763?v=4" alt="Portrait of Yuvi Mittal" class="rounded-circle" style="width:56px;height:56px;object-fit:cover">
                       <div>
@@ -289,16 +316,33 @@
                         <div class="small text-secondary">Open Science Labs alumni</div>
                       </div>
                     </div>
-                    <p class="mb-2 clamp-3 fw-lighter fs-6 text preview">Working with Ivan as a mentor has been an incredibly enriching experience. He has a remarkable ability to break down complex ideas into simple, actionable insights.</p>
-                    <div class="collapse" id="story-yuvi">
-                      <p class="mb-0 fw-lighter fs-6 text">Working with Ivan as a mentor has been an incredibly enriching experience. He has a remarkable ability to break down complex ideas into simple, actionable insights. His guidance helped me grow not just technically but also in how I approach problem-solving. I’m truly grateful for his mentorship.</p>
+
+                    <div class="preview">
+                      <p class="mb-2 clamp-3 fw-lighter fs-6 text">Working with Ivan as a mentor has been an incredibly enriching experience. He has a remarkable ability to break down complex ideas into simple, actionable insights.</p>
+                      <button class="btn btn-link p-0 mt-2 align-self-start"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#story-yuvi"
+                              aria-expanded="false"
+                              aria-controls="story-yuvi">Read more</button>
                     </div>
-                    <button class="btn btn-link p-0 mt-2 toggle-more align-self-start" type="button" data-bs-toggle="collapse" data-bs-target="#story-yuvi" aria-expanded="false" aria-controls="story-yuvi">Read more</button>
+
+                    <div class="collapse" id="story-yuvi">
+                      <p class="mb-0 fw-lighter fs-6 text">
+                        Working with Ivan as a mentor has been an incredibly enriching experience. He has a remarkable ability to break down complex ideas into simple, actionable insights. His guidance helped me grow not just technically but also in how I approach problem-solving. I’m truly grateful for his mentorship.
+                      </p>
+                      <button class="btn btn-link p-0 mt-2 align-self-start"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#story-yuvi"
+                              aria-expanded="true"
+                              aria-controls="story-yuvi">Show less</button>
+                    </div>
                   </div>
                 </div>
               </div>
 
-              <!-- Card 3: placeholder CTA -->
+              <!-- Card 3: M Naga Jaideep Chowdary -->
               <div class="col-md-6 col-xl-4">
                 <div class="card h-100 soft-shadow">
                   <div class="card-body p-4 d-flex flex-column">
@@ -309,25 +353,34 @@
                         <div class="small text-secondary">Open Science Labs Alumni</div>
                       </div>
                     </div>
-                    <p class="mb-2 clamp-3 fw-lighter fs-6 text preview">One of the most rewarding experiences I have had thus far in my journey was working with Ivan Ogasawara at Open Science Labs. His mentoring was the ideal balance of technical expertise, tolerance, and compassion.</p>
-                    <div class="collapse" id="story-jaideep">
-                      <p class="mb-0 fw-lighter fs-6 text">One of the most rewarding experiences I have had thus far in my journey was working with Ivan Ogasawara at Open Science Labs. His mentoring was the ideal balance of technical expertise, tolerance, and compassion; he helped me navigate the many facets of open-source development, CI/CD errors, and documentation with remarkable clarity. Ivan has a special talent for transforming every obstacle into an opportunity to learn, which makes teamwork inspiring and fruitful. His humility and readiness to lend a hand, no matter how minor the question, had a profound effect on my perspective on excellent teamwork and leadership.</p>
-                    </div>
-                    <button class="btn btn-link p-0 mt-2 toggle-more align-self-start" type="button" data-bs-toggle="collapse" data-bs-target="#story-jaideep" aria-expanded="false" aria-controls="story-jaideep">Read more</button>
-            </div>
-          </div>
 
-          <!-- (Optional) Slide 2 template: duplicate and replace with real stories when available -->
-          <!--
-          <div class="carousel-item">
-            <div class="row g-4">
-              <div class="col-md-6 col-xl-4">...card...</div>
-              <div class="col-md-6 col-xl-4">...card...</div>
-              <div class="col-md-6 col-xl-4">...card...</div>
-            </div>
-          </div>
-          -->
-        </div>
+                    <div class="preview">
+                      <p class="mb-2 clamp-3 fw-lighter fs-6 text">One of the most rewarding experiences I have had thus far in my journey was working with Ivan Ogasawara at Open Science Labs. His mentoring was the ideal balance of technical expertise, tolerance, and compassion.</p>
+                      <button class="btn btn-link p-0 mt-2 align-self-start"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#story-jaideep"
+                              aria-expanded="false"
+                              aria-controls="story-jaideep">Read more</button>
+                    </div>
+
+                    <div class="collapse" id="story-jaideep">
+                      <p class="mb-0 fw-lighter fs-6 text">
+                        One of the most rewarding experiences I have had thus far in my journey was working with Ivan Ogasawara at Open Science Labs. His mentoring was the ideal balance of technical expertise, tolerance, and compassion; he helped me navigate the many facets of open-source development, CI/CD errors, and documentation with remarkable clarity. Ivan has a special talent for transforming every obstacle into an opportunity to learn, which makes teamwork inspiring and fruitful. His humility and readiness to lend a hand, no matter how minor the question, had a profound effect on my perspective on excellent teamwork and leadership.
+                      </p>
+                      <button class="btn btn-link p-0 mt-2 align-self-start"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#story-jaideep"
+                              aria-expanded="true"
+                              aria-controls="story-jaideep">Show less</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- /row -->
+          </div> <!-- /carousel-item active -->
+        </div> <!-- /carousel-inner -->
 
         <button class="carousel-control-prev" type="button" data-bs-target="#storiesCarousel" data-bs-slide="prev" aria-label="Previous stories">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -340,6 +393,7 @@
       </div>
     </div>
   </section>
+
 
   <section id="notes" class="py-5">
     <div class="container">
@@ -615,60 +669,7 @@
     </div>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">  // Toggle 'Read more' / 'Show less' in Stories cards
-    document.querySelectorAll('#stories .toggle-more').forEach(function(btn){
-      var sel = btn.getAttribute('data-bs-target');
-      var target = document.querySelector(sel);
-      if(!target) return;
-      var cardBody = btn.closest('.card-body');
-      var preview = cardBody ? cardBody.querySelector('.preview') : null;
-
-      // Update label immediately on click based on aria-expanded (Bootstrap toggles this)
-      btn.addEventListener('click', function(){
-        setTimeout(function(){
-          var expanded = btn.getAttribute('aria-expanded') === 'true';
-          btn.textContent = expanded ? 'Read less' : 'Read more';
-        }, 0);
-      });
-
-      // Also keep collapse event listeners as a fallback
-      target.addEventListener('show.bs.collapse', function(){
-        if(preview) preview.classList.add('d-none');
-        var activeItem = document.querySelector('#storiesCarousel .carousel-item.active');
-        if(activeItem){activeItem.style.height='auto';}
-      });
-      target.addEventListener('hide.bs.collapse', function(){
-        if(preview) preview.classList.remove('d-none');
-        var activeItem = document.querySelector('#storiesCarousel .carousel-item.active');
-        if(activeItem){activeItem.style.height='auto';}
-      });
-      target.addEventListener('shown.bs.collapse', function(){ btn.textContent = 'Read less'; });
-      target.addEventListener('hidden.bs.collapse', function(){ btn.textContent = 'Read more'; });
-    });
-      target.addEventListener('hide.bs.collapse', function(){
-        btn.textContent = 'Read more';
-        if(preview) preview.classList.remove('d-none');
-        var activeItem = document.querySelector('#storiesCarousel .carousel-item.active');
-        if(activeItem){activeItem.style.height='auto';}
-      });
-    });
-      target.addEventListener('hidden.bs.collapse', function(){
-        btn.textContent = 'Read more';
-        if(preview) preview.classList.remove('d-none');
-        var activeItem=document.querySelector('#storiesCarousel .carousel-item.active');
-        if(activeItem){activeItem.style.height='auto';}
-      });
-    });
-      target.addEventListener('hide.bs.collapse', function(){
-        btn.textContent = 'Read more';
-        if(preview) preview.classList.remove('d-none');
-        var activeItem = document.querySelector('#storiesCarousel .carousel-item.active');
-        if(activeItem){activeItem.style.height='auto';}
-      });
-    });
-      target.addEventListener('hide.bs.collapse', function(){ btn.textContent = 'Read more'; const activeItem=document.querySelector('#storiesCarousel .carousel-item.active'); if(activeItem){activeItem.style.height='auto';} });
-    });
-  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
     document.getElementById('contact-form').addEventListener('submit', function (e) {
