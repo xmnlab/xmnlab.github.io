@@ -48,6 +48,7 @@
     
   
   
+  .clamp-3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
   </style>
 </head>
 <body>
@@ -252,7 +253,11 @@
                         <div class="small text-secondary">Research Software Engineer · LiteRev (Brazil)</div>
                       </div>
                     </div>
-                    <p class="mb-0">Ivan Ogasawara is the best mentor I have encountered in the tech field in recent years. He has a remarkable ability to see beyond technical gaps and unlock each person’s potential in ways they might not even imagine. Ivan is the person you turn to with any technical question; he not only finds the right answers but presents them in a clear, structured, and memorable way, almost as if writing a detailed post you can easily refer back to. He constantly encourages and seeks out the best in everyone, equipping each individual with the tools and confidence to stand on their own two feet. Ivan is truly a natural-born mentor who inspires growth and excellence in all who work with him.</p>
+                    <p class="mb-2 clamp-3">Ivan Ogasawara is the best mentor I have encountered in the tech field in recent years. He has a remarkable ability to see beyond technical gaps and unlock each person’s potential.</p>
+                    <div class="collapse" id="story-sandro">
+                      <p class="mb-0">Ivan Ogasawara is the best mentor I have encountered in the tech field in recent years. He has a remarkable ability to see beyond technical gaps and unlock each person’s potential in ways they might not even imagine. Ivan is the person you turn to with any technical question; he not only finds the right answers but presents them in a clear, structured, and memorable way, almost as if writing a detailed post you can easily refer back to. He constantly encourages and seeks out the best in everyone, equipping each individual with the tools and confidence to stand on their own two feet. Ivan is truly a natural-born mentor who inspires growth and excellence in all who work with him.</p>
+                    </div>
+                    <button class="btn btn-link p-0 mt-2 toggle-more" data-bs-toggle="collapse" data-bs-target="#story-sandro" aria-expanded="false" aria-controls="story-sandro">Read more</button>
                   </div>
                 </div>
               </div>
@@ -268,7 +273,11 @@
                         <div class="small text-secondary">Open Science Labs alumni</div>
                       </div>
                     </div>
-                    <p class="mb-0">Working with Ivan as a mentor has been an incredibly enriching experience. He has a remarkable ability to break down complex ideas into simple, actionable insights. His guidance helped me grow not just technically but also in how I approach problem-solving. I’m truly grateful for his mentorship.</p>
+                    <p class="mb-2 clamp-3">Working with Ivan as a mentor has been an incredibly enriching experience. He has a remarkable ability to break down complex ideas into simple, actionable insights.</p>
+                    <div class="collapse" id="story-yuvi">
+                      <p class="mb-0">Working with Ivan as a mentor has been an incredibly enriching experience. He has a remarkable ability to break down complex ideas into simple, actionable insights. His guidance helped me grow not just technically but also in how I approach problem-solving. I’m truly grateful for his mentorship.</p>
+                    </div>
+                    <button class="btn btn-link p-0 mt-2 toggle-more" data-bs-toggle="collapse" data-bs-target="#story-yuvi" aria-expanded="false" aria-controls="story-yuvi">Read more</button>
                   </div>
                 </div>
               </div>
@@ -277,12 +286,18 @@
               <div class="col-md-6 col-xl-4">
                 <div class="card h-100 soft-shadow">
                   <div class="card-body p-4 d-flex flex-column">
-                    <div class="fw-semibold mb-2">Your story here</div>
-                    <p class="text-secondary flex-grow-1">Briefly describe the challenge, how we worked, and what changed.</p>
-                    <a class="btn btn-outline-primary mt-2 align-self-start" href="mailto:me@ivanogasawara.com?subject=Testimonial">Contribute a note</a>
-                  </div>
-                </div>
-              </div>
+                    <div class="d-flex align-items-start gap-3 mb-3">
+                      <img src="https://avatars.githubusercontent.com/u/160611865?v=4" alt="Portrait of M Naga Jaideep Chowdary" class="rounded-circle" style="width:56px;height:56px;object-fit:cover">
+                      <div>
+                        <div class="fw-semibold">M Naga Jaideep Chowdary</div>
+                        <div class="small text-secondary">Open Science Labs Alumni</div>
+                      </div>
+                    </div>
+                    <p class="mb-2 clamp-3">One of the most rewarding experiences I have had thus far in my journey was working with Ivan Ogasawara at Open Science Labs. His mentoring was the ideal balance of technical expertise, tolerance, and compassion.</p>
+                    <div class="collapse" id="story-jaideep">
+                      <p class="mb-0">One of the most rewarding experiences I have had thus far in my journey was working with Ivan Ogasawara at Open Science Labs. His mentoring was the ideal balance of technical expertise, tolerance, and compassion; he helped me navigate the many facets of open-source development, CI/CD errors, and documentation with remarkable clarity. Ivan has a special talent for transforming every obstacle into an opportunity to learn, which makes teamwork inspiring and fruitful. His humility and readiness to lend a hand, no matter how minor the question, had a profound effect on my perspective on excellent teamwork and leadership.</p>
+                    </div>
+                    <button class="btn btn-link p-0 mt-2 toggle-more" data-bs-toggle="collapse" data-bs-target="#story-jaideep" aria-expanded="false" aria-controls="story-jaideep">Read more</button>
             </div>
           </div>
 
@@ -584,7 +599,15 @@
     </div>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">  // Toggle 'Read more' / 'Show less' in Stories cards
+    document.querySelectorAll('#stories .toggle-more').forEach(function(btn){
+      var sel = btn.getAttribute('data-bs-target');
+      var target = document.querySelector(sel);
+      if(!target) return;
+      target.addEventListener('show.bs.collapse', function(){ btn.textContent = 'Show less'; });
+      target.addEventListener('hide.bs.collapse', function(){ btn.textContent = 'Read more'; });
+    });
+  </script>
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
     document.getElementById('contact-form').addEventListener('submit', function (e) {
