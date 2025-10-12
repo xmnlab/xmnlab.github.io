@@ -62,6 +62,9 @@
   /* Standardize testimonials layout */
   #stories .card-body{display:flex; flex-direction:column}
   #stories .toggle-more{align-self:flex-start}
+  #storiesCarousel .carousel-inner{overflow:visible}
+  /* Hide preview when a card's collapse is open (robust, CSS-level) */
+  #stories .card-body:has(.collapse.show) .preview{display:none !important}
   </style>
 </head>
 <body>
@@ -619,12 +622,19 @@
       if(!target) return;
       var cardBody = btn.closest('.card-body');
       var preview = cardBody ? cardBody.querySelector('.preview') : null;
-      target.addEventListener('show.bs.collapse', function(){
-        btn.textContent = 'Show less';
+      target.addEventListener('shown.bs.collapse', function(){
+        btn.textContent = 'Read less';
         if(preview) preview.classList.add('d-none');
-        var activeItem = document.querySelector('#storiesCarousel .carousel-item.active');
+        var activeItem=document.querySelector('#storiesCarousel .carousel-item.active');
         if(activeItem){activeItem.style.height='auto';}
       });
+      target.addEventListener('hidden.bs.collapse', function(){
+        btn.textContent = 'Read more';
+        if(preview) preview.classList.remove('d-none');
+        var activeItem=document.querySelector('#storiesCarousel .carousel-item.active');
+        if(activeItem){activeItem.style.height='auto';}
+      });
+    });
       target.addEventListener('hide.bs.collapse', function(){
         btn.textContent = 'Read more';
         if(preview) preview.classList.remove('d-none');
