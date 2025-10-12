@@ -20,6 +20,16 @@
       --bg-hero: linear-gradient(180deg,#ecfdf5 0%,#ffffff 50%);
     }
     html,body{font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", sans-serif; color:var(--ink-2)}
+
+    /* Smooth anchor scrolling + active state styling */
+    html { scroll-behavior: smooth; }
+    .navbar .nav-link.active {
+      color: var(--brand) !important;
+      font-weight: 600;
+      text-underline-offset: 6px;
+      text-decoration: underline;
+    }
+
     h1,h2,h3,h4{font-family: Fraunces, Georgia, serif; color:var(--ink-1)}
     .navbar{background:#ECFDF5 !important; border:0 !important; box-shadow:none !important}
     .btn-primary{background:var(--brand); border-color:var(--brand)}
@@ -78,19 +88,27 @@
 </head>
 <body>
   <!-- NAV -->
-  <nav class="navbar navbar-expand-lg">
+  <nav id="mainNav" class="navbar navbar-expand-lg navbar-light">
     <div class="container py-2">
       <a class="navbar-brand fw-semibold" href="#">Ivan Ogasawara</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
+              aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div id="nav" class="collapse navbar-collapse">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link" href="#work-with-me">Work with me</a></li>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#osl">About OSL</a></li>
           <li class="nav-item"><a class="nav-link" href="#values">Values</a></li>
+          <li class="nav-item"><a class="nav-link" href="#work-with-me">Work with me</a></li>
           <li class="nav-item"><a class="nav-link" href="#speaking">Training &amp; Workshops</a></li>
+          <li class="nav-item"><a class="nav-link" href="#stories">Stories</a></li>
+          <li class="nav-item"><a class="nav-link" href="#orgs">Organizations</a></li>
           <li class="nav-item"><a class="nav-link" href="#notes">Notes</a></li>
-          <li class="nav-item"><a class="btn btn-primary ms-lg-2" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sponsor">Support</a></li>
+          <li class="nav-item">
+            <a class="btn btn-primary ms-lg-2" href="#contact">Contact</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -685,5 +703,24 @@
       window.location.href = `mailto:me@ivanogasawara.com?subject=${subject}&body=${body}`;
     });
   </script>
+
+  <script>
+    // ScrollSpy on the whole page
+    window.addEventListener('load', function () {
+      // Ensure the nav has id="mainNav"
+      if (!document.querySelector('#mainNav')) return;
+
+      // Init or reuse existing instance
+      const existing = bootstrap.ScrollSpy.getInstance(document.body);
+      const spy = existing || new bootstrap.ScrollSpy(document.body, {
+        target: '#mainNav',
+        offset: 80   // tweak if you later make the navbar sticky/taller
+      });
+
+      // Refresh once content/images are fully laid out
+      setTimeout(() => spy.refresh(), 400);
+    });
+  </script>
+
 </body>
 </html>
