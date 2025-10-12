@@ -49,6 +49,7 @@
   
   
   .clamp-3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  #storiesCarousel .carousel-inner{overflow:visible}
   </style>
 </head>
 <body>
@@ -254,10 +255,10 @@
                       </div>
                     </div>
                     <p class="mb-2 clamp-3">Ivan Ogasawara is the best mentor I have encountered in the tech field in recent years. He has a remarkable ability to see beyond technical gaps and unlock each person’s potential.</p>
-                    <div class="collapse" id="story-sandro">
+                    <div class="collapse" id="story-s1">
                       <p class="mb-0">Ivan Ogasawara is the best mentor I have encountered in the tech field in recent years. He has a remarkable ability to see beyond technical gaps and unlock each person’s potential in ways they might not even imagine. Ivan is the person you turn to with any technical question; he not only finds the right answers but presents them in a clear, structured, and memorable way, almost as if writing a detailed post you can easily refer back to. He constantly encourages and seeks out the best in everyone, equipping each individual with the tools and confidence to stand on their own two feet. Ivan is truly a natural-born mentor who inspires growth and excellence in all who work with him.</p>
                     </div>
-                    <button class="btn btn-link p-0 mt-2 toggle-more" data-bs-toggle="collapse" data-bs-target="#story-sandro" aria-expanded="false" aria-controls="story-sandro">Read more</button>
+                    <button class="btn btn-link p-0 mt-2 toggle-more" data-bs-toggle="collapse" data-bs-target="#story-s1" aria-expanded="false" aria-controls="story-s1">Read more</button>
                   </div>
                 </div>
               </div>
@@ -604,8 +605,8 @@
       var sel = btn.getAttribute('data-bs-target');
       var target = document.querySelector(sel);
       if(!target) return;
-      target.addEventListener('show.bs.collapse', function(){ btn.textContent = 'Show less'; });
-      target.addEventListener('hide.bs.collapse', function(){ btn.textContent = 'Read more'; });
+      target.addEventListener('show.bs.collapse', function(){ btn.textContent = 'Show less'; const activeItem=document.querySelector('#storiesCarousel .carousel-item.active'); if(activeItem){activeItem.style.height='auto';} });
+      target.addEventListener('hide.bs.collapse', function(){ btn.textContent = 'Read more'; const activeItem=document.querySelector('#storiesCarousel .carousel-item.active'); if(activeItem){activeItem.style.height='auto';} });
     });
   </script>
   <script>
