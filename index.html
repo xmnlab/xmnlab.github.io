@@ -86,6 +86,31 @@
     #storiesCarousel .carousel-inner { overflow: visible; }
     #stories .card-body { display: flex; flex-direction: column; }
 
+    /* Dots below the Stories carousel */
+    #storiesCarousel .carousel-indicators {
+      position: static;            /* place under the carousel */
+      margin-top: .75rem;
+      display: flex;
+      justify-content: center;
+      gap: .5rem;
+    }
+
+    #storiesCarousel .carousel-indicators [data-bs-target] {
+      width: 10px;
+      height: 10px;
+      padding: 0;
+      border-radius: 50%;
+      background-color: rgba(15, 23, 42, .25);
+      border: 0;                   /* kill default borders that cause the '⋮' look */
+      border-top: 0;
+      border-bottom: 0;
+    }
+
+    #storiesCarousel .carousel-indicators .active {
+      background-color: var(--brand); /* emerald */
+    }
+
+
     .social-links .btn {
       border-radius: 999px;
       padding: .4rem .6rem;
@@ -288,12 +313,62 @@
         <div class="col"><h2 class="section-title mb-0">Stories about Ivan</h2></div>
       </div>
 
-      <div id="storiesCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false" data-bs-touch="true" data-bs-wrap="true">
+      <div id="storiesCarousel" 
+        class="carousel slide" 
+        data-bs-ride="carousel" 
+        data-bs-interval="7000"
+        data-bs-touch="true"
+        data-bs-wrap="true"
+      >
+
         <div class="carousel-inner">
           <!-- Slide 1 -->
           <div class="carousel-item active">
             <div class="row g-4">
-              <!-- Card 1: Sandro -->
+              <!-- Card: Kene Nwosu -->
+              <div class="col-md-6 col-xl-4">
+                <div class="card h-100 soft-shadow">
+                  <div class="card-body p-4 d-flex flex-column">
+                    <div class="d-flex align-items-start gap-3 mb-3">
+                      <img src="https://thegraphnetwork.org/wp-content/uploads/2022/04/linkedin_screenshot-Kene-David-Nwosu_cropped-300x300.png"
+                          alt="Portrait of Kene Nwosu" class="rounded-circle"
+                          style="width:56px;height:56px;object-fit:cover" loading="lazy">
+                      <div>
+                        <div class="fw-semibold">Kene Nwosu</div>
+                        <div class="small text-secondary">The GRAPH Courses — Director &amp; Training Strategy Coordinator · Data Scientist</div>
+                      </div>
+                    </div>
+
+                    <!-- Preview + Read more -->
+                    <div class="preview">
+                      <p class="mb-2 clamp-3 fw-lighter fs-6 text">
+                        Ivan brings deep technical knowledge and genuine enthusiasm to every teaching session. He's consistently punctual, well-prepared, and a collaborative team player.
+                      </p>
+                      <button class="btn btn-link p-0 mt-2 align-self-start"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#story-kene"
+                              aria-expanded="false"
+                              aria-controls="story-kene">Read more</button>
+                    </div>
+
+                    <!-- Full content + Show less -->
+                    <div class="collapse" id="story-kene">
+                      <p class="mb-0 fw-lighter fs-6 text">
+                        Ivan brings deep technical knowledge and genuine enthusiasm to every teaching session. He's consistently punctual, well-prepared, and a collaborative team player. His passion for the material is clear, and he's always willing to go the extra mile to support students.
+                      </p>
+                      <button class="btn btn-link p-0 mt-2 align-self-start"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#story-kene"
+                              aria-expanded="true"
+                              aria-controls="story-kene">Show less</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card: Sandro -->
               <div class="col-md-6 col-xl-4">
                 <div class="card h-100 soft-shadow">
                   <div class="card-body p-4 d-flex flex-column">
@@ -301,7 +376,7 @@
                       <img src="images/testimonials/Sandro-Loch.jpg" alt="Portrait of Sandro Loch" class="rounded-circle" style="width:56px;height:56px;object-fit:cover">
                       <div>
                         <div class="fw-semibold">Sandro Loch</div>
-                        <div class="small text-secondary">Research Software Engineer · LiteRev (Brazil)</div>
+                        <div class="small text-secondary">Research Software Engineer · LiteRev</div>
                       </div>
                     </div>
 
@@ -332,7 +407,56 @@
                 </div>
               </div>
 
-              <!-- Card 2: Yuvi -->
+              <!-- Card: Felipe Paes -->
+              <div class="col-md-6 col-xl-4">
+                <div class="card h-100 soft-shadow">
+                  <div class="card-body p-4 d-flex flex-column">
+                    <div class="d-flex align-items-start gap-3 mb-3">
+                      <img src="https://avatars.githubusercontent.com/u/12243928?v=4"
+                          alt="Portrait of Felipe Paes" class="rounded-circle"
+                          style="width:56px;height:56px;object-fit:cover" loading="lazy">
+                      <div>
+                        <div class="fw-semibold">Felipe Paes</div>
+                        <div class="small text-secondary">Software Engineer, TeleHealthCareAI</div>
+                      </div>
+                    </div>
+
+                    <!-- Preview + Read more -->
+                    <div class="preview">
+                      <p class="mb-2 clamp-3 fw-lighter fs-6 text">
+                        Working with Ivan is always an opportunity for growth, not only in programming and software engineering but also as a person. He taught me the importance of expressing our ideas without fear…
+                      </p>
+                      <button class="btn btn-link p-0 mt-2 align-self-start"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#story-felipe"
+                              aria-expanded="false"
+                              aria-controls="story-felipe">Read more</button>
+                    </div>
+
+                    <!-- Full content + Show less -->
+                    <div class="collapse" id="story-felipe">
+                      <p class="mb-0 fw-lighter fs-6 text">
+                        Working with Ivan is always an opportunity for growth, not only in programming and software engineering but also as a person. He taught me the importance of expressing our ideas without fear, with confidence and an open mind guided by the pursuit of a solution. Agile software development is primarily a collaborative and iterative process, and Ivan has consistently been an excellent facilitator and mentor in every aspect of teamwork and development.
+                      </p>
+                      <button class="btn btn-link p-0 mt-2 align-self-start"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#story-felipe"
+                              aria-expanded="true"
+                              aria-controls="story-felipe">Show less</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div> <!-- /row -->
+          </div> <!-- /carousel-item active -->
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div class="row g-4 justify-content-center">
+              <!-- Card: Yuvi -->
               <div class="col-md-6 col-xl-4">
                 <div class="card h-100 soft-shadow">
                   <div class="card-body p-4 d-flex flex-column">
@@ -369,7 +493,7 @@
                 </div>
               </div>
 
-              <!-- Card 3: M Naga Jaideep Chowdary -->
+              <!-- Card: M Naga Jaideep Chowdary -->
               <div class="col-md-6 col-xl-4">
                 <div class="card h-100 soft-shadow">
                   <div class="card-body p-4 d-flex flex-column">
@@ -405,9 +529,17 @@
                   </div>
                 </div>
               </div>
-            </div> <!-- /row -->
-          </div> <!-- /carousel-item active -->
+            </div><!-- /row -->
+          </div><!-- /carousel-item -->
+
         </div> <!-- /carousel-inner -->
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#storiesCarousel" data-bs-slide-to="0"
+                  class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#storiesCarousel" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+        </div>
 
         <button class="carousel-control-prev" type="button" data-bs-target="#storiesCarousel" data-bs-slide="prev" aria-label="Previous stories">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
