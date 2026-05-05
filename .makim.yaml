@@ -1,0 +1,28 @@
+groups:
+  pages:
+    tasks:
+      clean:
+        help: remove generated MkDocs output
+        backend: bash
+        run: |
+          rm -rf site .site-test
+
+      build:
+        help: build the static site with MkDocs
+        backend: bash
+        run: |
+          mkdocs build --strict --clean
+          touch site/.nojekyll
+
+      preview:
+        help: preview the site locally with MkDocs live reload
+        backend: bash
+        run: |
+          mkdocs serve --open --watch-theme
+
+      check:
+        help: run the same strict MkDocs build used by CI, then remove test output
+        backend: bash
+        run: |
+          mkdocs build --strict --clean -d .site-test
+          rm -rf .site-test

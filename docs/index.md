@@ -1,168 +1,97 @@
 ---
-title: Ivan Ogasawara — Mentoring, Advisory & Workshops
-description: Warm, clear guidance for your next chapter. Mentoring, advisory, and workshops for people and teams building meaningful technology.
+title: Ivan Ogasawara — Tech Leader & Research Software Engineer
+description: Technical leadership, research software engineering, open science, Python tooling, data platforms, and open-source communities.
 ---
 
 <!-- HERO -->
-<header class="hero py-5">
-    <div class="container">
-      <div class="row align-items-center g-5">
-        <div class="col-12 col-lg-6">
-          <span class="chip bg-mint">Mentoring · Advisory · Workshops</span>
-          <h1 class="display-5 fw-semibold mt-3">Make your work—and life—feel meaningful.</h1>
-          <p class="lead mt-2">I help people and teams grow with clarity and kindness. Together we design simple systems, better habits, and joyful collaboration—so results come without the grind.</p>
-          <div class="d-flex flex-wrap gap-2 mt-3">
-            <a href="#contact" class="btn btn-primary btn-lg"><i class="bi bi-calendar2-check me-2"></i>Start with a 30‑min call</a>
-            <a href="#work-with-me" class="btn btn-outline-primary btn-lg">See ways to work</a>
-          </div>
-          <div class="mt-4 small text-secondary">
-            <span class="me-3">20+ years experience</span>
-            <span class="me-3">EN · ES · PT</span>
-            <span>Remote‑first, worldwide</span>
-          </div>
+<header class="hero tech-hero py-5">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-8">
+        <span class="chip">Research Software Engineering · Open Source · Open Science</span>
+        <h1 class="display-5 fw-semibold mt-3">Projects, tools, and communities at the intersection of software, science, and public-good technology.</h1>
+        <p class="lead mt-3">This site is a snapshot of the open-source and research-software work I’m currently investing time in: community infrastructure, programming-language tooling, health technology, workflow automation, and developer experience.</p>
+        <div class="d-flex flex-wrap gap-2 mt-4">
+          <a href="#projects" class="btn btn-primary btn-lg"><i class="bi bi-diagram-3 me-2"></i>View projects</a>
+          <a href="blog/" class="btn btn-outline-primary btn-lg">Read the blog</a>
         </div>
-        <div class="col-12 col-lg-6">
-          <figure class="figure-hero soft-shadow">
-            <img class="img-cover" alt="Ivan mentoring a small group at a whiteboard" loading="eager" fetchpriority="high" src="/images/Ivan-Ogasawara.jpg">
-          </figure>
+        <div class="mt-4">
+          <a class="hero-linkedin" href="https://www.linkedin.com/in/ivan-ogasawara/" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin me-2"></i>LinkedIn profile
+          </a>
         </div>
       </div>
-      <div class="row mt-4">
-        <div class="col-lg-10">
-          <p class="quote mb-1">“When work aligns with values, momentum feels natural.”</p>
-          <div class="sig">— Ivan Ogasawara</div>
-        </div>
+      <div class="col-lg-4 text-lg-end">
+        <figure class="figure-hero soft-shadow ms-lg-auto">
+          <img class="img-cover" alt="Portrait of Ivan Ogasawara" loading="eager" fetchpriority="high" src="/images/Ivan-Ogasawara.jpg">
+        </figure>
       </div>
     </div>
-  </header>
+  </div>
+</header>
 
-  <!-- VALUES / HEART -->
-  <!-- ABOUT OSL -->
-  <section id="osl" class="py-5">
+  <section id="projects" class="py-5 bg-mint">
     <div class="container">
-      <div class="row align-items-center g-4">
-        <div class="col-lg-6">
-          <h2 class="section-title mb-2">Founder &amp; Executive Director of Open Science Labs</h2>
-          <p>Open Science Labs is a global community for open collaboration in research, education, and social good. We help people learn, build, and contribute to impactful open‑source projects—mentored by a welcoming community.</p>
-          <ul class="mb-3">
-            <li><strong>Mentored OSS contributions</strong> and contributor pathways</li>
-            <li><strong>Programs &amp; study groups</strong>, learning resources, and events</li>
-            <li><strong>Project Incubator &amp; Affiliation Program</strong> to support aligned initiatives</li>
-            <li><strong>Google Summer of Code</strong> mentoring organization (2025)</li>
-          </ul>
-          <a class="btn btn-outline-primary" href="https://opensciencelabs.org" target="_blank" rel="noopener noreferrer">Open Science Labs website</a>
-        </div>
-        <div class="col-lg-6">
-          <div class="soft-card p-4 bg-white">
-            <div class="small text-secondary text-uppercase mb-2">Highlights</div>
-            <div class="d-grid gap-2">
-              <div><i class="bi bi-people-fill me-2 text-success"></i>Supportive global community</div>
-              <div><i class="bi bi-journal-text me-2 text-info"></i>Study groups &amp; resources</div>
-              <div><i class="bi bi-diagram-3 me-2 text-warning"></i>Incubator &amp; affiliated projects</div>
-            </div>
-          </div>
+      <div class="row align-items-end mb-4">
+        <div class="col-lg-8">
+          <div class="small text-secondary text-uppercase mb-2">Current focus</div>
+          <h2 class="section-title mb-2">Projects I’m investing time in</h2>
+          <p class="mb-0">A snapshot of communities, tools, and research-software initiatives where I’m currently contributing design, engineering, governance, or technical direction.</p>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section id="values" class="py-5 bg-mint">
-    <div class="container">
-      <h2 class="section-title mb-3">What working together feels like</h2>
-      <div class="row g-4 row-cols-1 row-cols-md-3">
+      <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
         <div class="col">
-          <div class="soft-card p-4 h-100 bg-white">
-            <div class="values-icon bg-mint me-2"><i class="bi bi-brightness-high text-success"></i></div>
-            <h3 class="h5 mt-2">Clarity</h3>
-            <p class="mb-0">Ideas click into place. You know the next right step for your team—and for yourself.</p>
-          </div>
+          <article class="project-card soft-card p-4 h-100 bg-white">
+            <div class="project-kicker">Open science community</div>
+            <h3 class="h4 mt-2">Open Science Labs</h3>
+            <p>Community and project incubator for open collaboration in research, education, and social good.</p>
+            <a class="stretched-link" href="https://opensciencelabs.org" target="_blank" rel="noopener noreferrer">opensciencelabs.org</a>
+          </article>
         </div>
         <div class="col">
-          <div class="soft-card p-4 h-100 bg-white">
-            <div class="values-icon bg-sky me-2"><i class="bi bi-people text-info"></i></div>
-            <h3 class="h5 mt-2">Care</h3>
-            <p class="mb-0">Progress with empathy. Mentorship that respects pace, culture, and lived experience.</p>
-          </div>
+          <article class="project-card soft-card p-4 h-100 bg-white">
+            <div class="project-kicker">Programming languages</div>
+            <h3 class="h4 mt-2">ArxLang</h3>
+            <p>A language and tooling ecosystem exploring readable intermediate representations, compilers, and developer experience.</p>
+            <a class="stretched-link" href="https://arxlang.org" target="_blank" rel="noopener noreferrer">arxlang.org</a>
+          </article>
         </div>
         <div class="col">
-          <div class="soft-card p-4 h-100 bg-white">
-            <div class="values-icon bg-peach me-2"><i class="bi bi-stars text-warning"></i></div>
-            <h3 class="h5 mt-2">Confidence</h3>
-            <p class="mb-0">Simple systems and habits that make good work feel joyful and repeatable.</p>
-          </div>
+          <article class="project-card soft-card p-4 h-100 bg-white">
+            <div class="project-kicker">Health technology</div>
+            <h3 class="h4 mt-2">HiPerHealth</h3>
+            <p>Open-source work around health data, interoperability, and practical tools for healthcare-oriented software systems.</p>
+            <a class="stretched-link" href="https://github.com/hiperhealth/hiperhealth" target="_blank" rel="noopener noreferrer">github.com/hiperhealth/hiperhealth</a>
+          </article>
+        </div>
+        <div class="col">
+          <article class="project-card soft-card p-4 h-100 bg-white">
+            <div class="project-kicker">Developer tooling</div>
+            <h3 class="h4 mt-2">Makim</h3>
+            <p>A task runner for reproducible developer workflows, project automation, and clearer command interfaces.</p>
+            <a class="stretched-link" href="https://github.com/makim-org/makim" target="_blank" rel="noopener noreferrer">github.com/makim-org/makim</a>
+          </article>
+        </div>
+        <div class="col">
+          <article class="project-card soft-card p-4 h-100 bg-white">
+            <div class="project-kicker">Workflow automation</div>
+            <h3 class="h4 mt-2">Sugar</h3>
+            <p>Open-source tooling focused on simplifying project workflows and improving day-to-day engineering ergonomics.</p>
+            <a class="stretched-link" href="https://github.com/sugar-org/sugar" target="_blank" rel="noopener noreferrer">github.com/sugar-org/sugar</a>
+          </article>
+        </div>
+        <div class="col">
+          <article class="project-card soft-card p-4 h-100 bg-white">
+            <div class="project-kicker">And more</div>
+            <h3 class="h4 mt-2">Research software & OSS</h3>
+            <p>Additional contributions across scientific Python, reproducible research, data platforms, CI/CD, and open-source governance.</p>
+            <a class="stretched-link" href="https://github.com/xmnlab" target="_blank" rel="noopener noreferrer">github.com/xmnlab</a>
+          </article>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- WORK WITH ME -->
-  <section id="work-with-me" class="py-5">
-    <div class="container">
-      <div class="row align-items-end mb-3">
-        <div class="col"><h2 class="section-title mb-0">Ways to work together</h2></div>
-      </div>
-      <div class="row g-4">
-        <div class="col-md-6 col-xl-3">
-          <div class="soft-card p-4 h-100 bg-white">
-            <h3 class="h5">Mentoring</h3>
-            <p class="mb-3">1:1 or small‑group sessions on career navigation, contribution paths, and leadership habits.</p>
-            <a class="btn btn-outline-primary" href="#contact">Book a chat</a>
-          </div>
-        </div>
-        <div class="col-md-6 col-xl-3">
-          <div class="soft-card p-4 h-100 bg-white">
-            <h3 class="h5">Advisory</h3>
-            <p class="mb-3">Architecture reviews and strategy for data platforms, ML/RAG, CI/CD, and collaboration.</p>
-            <a class="btn btn-outline-primary" href="#contact">Request a review</a>
-          </div>
-        </div>
-        <div class="col-md-6 col-xl-3">
-          <div class="soft-card p-4 h-100 bg-white">
-            <h3 class="h5">Workshops</h3>
-            <p class="mb-3">Practical trainings on Python tooling, reproducibility, open practice, and team rituals.</p>
-            <a class="btn btn-outline-primary" href="#contact">Plan a session</a>
-          </div>
-        </div>
-        <div class="col-md-6 col-xl-3">
-          <div class="soft-card p-4 h-100 bg-white">
-            <h3 class="h5">Fractional TL</h3>
-            <p class="mb-3">Hands‑on leadership to align goals, architecture, and delivery—without the grind.</p>
-            <a class="btn btn-outline-primary" href="#contact">Explore fit</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- TRAINING & WORKSHOPS -->
-  <section id="speaking" class="py-5 bg-sky">
-    <div class="container">
-      <div class="row align-items-center g-4">
-        <div class="col-lg-6">
-          <h2 class="section-title">Training &amp; Workshops</h2>
-          <p>I teach with a practical, human tone—so people leave confident and ready to use what they learned. I’ve worked as an instructor and teaching assistant in <strong>Data Science</strong>, <strong>Python</strong>, reproducible research, and open‑source workflows. I also organized an <strong>international conference</strong> focused on the Python scientific stack.</p>
-          <p>As a mentor, I’ve supported people across <strong>Bolivia, Brazil, the U.S., Nigeria, India</strong> and more—through internships, mentoring programs, and <strong>Google Summer of Code</strong>—helping newcomers start contributing to open source and grow their careers.</p>
-          <ul class="mb-3">
-            <li><strong>Mentoring &amp; Career:</strong> 1:1 and cohorts; contribution pathways; leadership habits; compassionate feedback.</li>
-            <li><strong>Training:</strong> Python &amp; data science foundations; reproducible workflows; packaging; CI/CD; collaboration in the open.</li>
-            <li><strong>Programs:</strong> Internship &amp; GSoC mentorship; contributor onboarding sprints; conference facilitation.</li>
-          </ul>
-          <div class="d-flex gap-2">
-            <a class="btn btn-primary" href="#contact">Plan a training</a>
-            <a class="btn btn-outline-primary" href="#contact">Request a syllabus</a>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <figure class="ratio ratio-21x9 soft-shadow rounded" style="overflow:hidden">
-            <img class="img-cover" alt="A warm, engaging workshop in progress" loading="lazy"
-                 src="/images/scipyla.jpg">
-          </figure>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- STORIES / TESTIMONIALS -->
   <section id="stories" class="py-5">
     <div class="container">
       <div class="row align-items-end mb-3">
@@ -461,7 +390,7 @@ description: Warm, clear guidance for your next chapter. Mentoring, advisory, an
             <div class="row g-3 align-items-center">
               <div class="col-md">
                 <h3 class="h5 mb-1">Notes on Substack</h3>
-                <p class="mb-2">New essays on mentoring, career growth, and joyful open collaboration.</p>
+                <p class="mb-2">Essays on AI, software engineering, open science, data systems, and technical leadership.</p>
                 <small class="text-secondary">Free & occasional.</small>
               </div>
               <div class="col-md-auto">

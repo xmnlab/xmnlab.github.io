@@ -14,13 +14,26 @@ mkdocs serve
 Build the production site:
 
 ```bash
-mkdocs build --strict
+makim pages.build
+```
+
+Preview locally with browser auto-open and MkDocs live reload:
+
+```bash
+makim pages.preview
+```
+
+Run a strict validation build without leaving generated output:
+
+```bash
+makim pages.check
 ```
 
 The generated site is written to `site/` and deployed to GitHub Pages by `.github/workflows/static.yml`.
 
 ## Project structure
 
+- `.makim.yaml` — local task runner commands for build, preview, check, and clean
 - `mkdocs.yml` — site configuration, navigation, languages, and UI labels
 - `docs/index.md` — landing page content
 - `docs/blog/index.md` — blog landing page and manually curated post list
