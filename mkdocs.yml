@@ -93,6 +93,7 @@ extra:
       blog:
         back_to_blog: Back to blog
       nav:
+        home: Home
         about_osl: About OSL
         values: Values
         work_with_me: Work with me
@@ -114,6 +115,7 @@ extra:
       blog:
         back_to_blog: Volver al blog
       nav:
+        home: Inicio
         about_osl: Acerca de OSL
         values: Valores
         work_with_me: Trabaja conmigo
@@ -135,6 +137,7 @@ extra:
       blog:
         back_to_blog: Voltar ao blog
       nav:
+        home: Início
         about_osl: Sobre a OSL
         values: Valores
         work_with_me: Trabalhe comigo
