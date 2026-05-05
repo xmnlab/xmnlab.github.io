@@ -23,6 +23,12 @@ Preview locally with browser auto-open and MkDocs live reload:
 makim pages.preview
 ```
 
+Use strict preview only when you want warnings to abort the server:
+
+```bash
+makim pages.preview-strict
+```
+
 Run a strict validation build without leaving generated output:
 
 ```bash

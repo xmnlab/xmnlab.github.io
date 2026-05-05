@@ -18,7 +18,13 @@ groups:
         help: preview the site locally with MkDocs live reload
         backend: bash
         run: |
-          mkdocs serve --open --watch-theme
+          mkdocs serve --open --dev-addr localhost:8000 --watch-theme
+
+      preview-strict:
+        help: preview the site locally with strict validation and live reload
+        backend: bash
+        run: |
+          mkdocs serve --open --strict --dev-addr localhost:8000 --watch-theme
 
       check:
         help: run the same strict MkDocs build used by CI, then remove test output

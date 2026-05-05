@@ -10,26 +10,20 @@
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
         <li class="nav-item"><a class="nav-link" href="{{ home_url }}">{{ ui.nav.home }}</a></li>
         <li class="nav-item"><a class="nav-link" href="{{ blog_url }}">{{ ui.nav.blog }}</a></li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            {{ ui.language }}
-          </a>
-          <ul class="dropdown-menu dropdown-menu-end">
-            {% for language in config.extra.languages %}
-              {% set alternate = page.file.alternates.get(language.locale) if page.file.alternates is defined else none %}
-              <li>
-                <a class="dropdown-item{% if language.locale == current_locale %} active{% endif %}"
-                   href="{% if alternate %}{{ base_url }}/{% if alternate.url != './' %}{{ alternate.url }}{% endif %}{% else %}{{ base_url }}/{{ language.path }}{% endif %}"
-                   lang="{{ language.locale }}"
-                   {% if language.locale == current_locale %}aria-current="true"{% endif %}>
-                  {{ language.name }}
-                </a>
-              </li>
-            {% endfor %}
-          </ul>
-        </li>
         <li class="nav-item">
           <a class="btn btn-primary ms-lg-2" href="{% if is_home %}#contact{% else %}{{ home_url }}#contact{% endif %}">{{ ui.contact }}</a>
+        </li>
+        <li class="nav-item language-flags" aria-label="{{ ui.language }}">
+          {% for language in config.extra.languages %}
+            {% set alternate = page.file.alternates.get(language.locale) if page.file.alternates is defined else none %}
+            {% set flag = '🇬🇧' if language.locale == 'en' else ('🇪🇸' if language.locale == 'es' else '🇧🇷') %}
+            <a class="language-flag{% if language.locale == current_locale %} active{% endif %}"
+               href="{% if alternate %}{{ base_url }}/{% if alternate.url != './' %}{{ alternate.url }}{% endif %}{% else %}{{ base_url }}/{{ language.path }}{% endif %}"
+               lang="{{ language.locale }}"
+               title="{{ language.name }}"
+               aria-label="{{ language.name }}"
+               {% if language.locale == current_locale %}aria-current="true"{% endif %}>{{ flag }}</a>
+          {% endfor %}
         </li>
       </ul>
     </div>

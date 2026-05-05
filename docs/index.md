@@ -73,16 +73,16 @@ description: Projects, writing, and open-source work by Ivan Ogasawara across re
         <span>Health data, interoperability, and practical tooling for healthcare-oriented software systems.</span>
       </a>
       <a class="project-row" href="https://github.com/makim-org/makim" target="_blank" rel="noopener noreferrer">
-        <span class="project-row-label">Developer tooling</span>
+        <span class="project-row-label">Task Automation</span>
         <strong>Makim</strong>
         <span>A task runner for reproducible developer workflows and clearer command interfaces.</span>
       </a>
       <a class="project-row" href="https://github.com/sugar-org/sugar" target="_blank" rel="noopener noreferrer">
-        <span class="project-row-label">Workflow automation</span>
+        <span class="project-row-label">Containers and Environment Organization</span>
         <strong>Sugar</strong>
         <span>Open-source tooling for simplifying project workflows and engineering ergonomics.</span>
       </a>
-      <a class="project-row" href="https://github.com/xmnlab" target="_blank" rel="noopener noreferrer">
+      <a class="project-row" href="https://github.com/osl-incubator/" target="_blank" rel="noopener noreferrer">
         <span class="project-row-label">Research software</span>
         <strong>And many others</strong>
         <span>Scientific Python, reproducibility, data platforms, CI/CD, and open-source governance.</span>
