@@ -100,3 +100,25 @@
       line-height: 1;
     }
     .social-links .btn i { font-size: 1rem; }
+
+/* Content pages and blog */
+.page-hero .lead { color: var(--ink-2); }
+.blog-back-link { color: var(--brand); font-weight: 600; text-decoration: none; }
+.blog-back-link:hover { text-decoration: underline; }
+.post-meta { color: #64748b; font-size: .95rem; font-weight: 500; }
+.blog-post-content { font-size: 1.05rem; line-height: 1.75; color: var(--ink-2); }
+.blog-post-content h2,
+.blog-post-content h3,
+.blog-post-content h4 { margin-top: 2rem; margin-bottom: .75rem; }
+.blog-post-content p,
+.blog-post-content ul,
+.blog-post-content ol,
+.blog-post-content blockquote,
+.blog-post-content pre { margin-bottom: 1.1rem; }
+.blog-post-content img { max-width: 100%; height: auto; border-radius: 1rem; }
+.blog-post-content blockquote { border-left: 4px solid var(--brand); padding-left: 1rem; color: var(--ink-1); }
+.blog-post-content pre { background: #0f172a; color: #e2e8f0; padding: 1rem; border-radius: 1rem; overflow-x: auto; }
+.blog-post-content code { background: #ecfdf5; color: #065f46; padding: .15rem .3rem; border-radius: .35rem; }
+.blog-post-content pre code { background: transparent; color: inherit; padding: 0; }
+.blog-card h2 a { color: var(--ink-1); text-decoration: none; }
+.blog-card h2 a:hover { color: var(--brand); text-decoration: underline; text-underline-offset: 4px; }

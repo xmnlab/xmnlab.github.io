@@ -13,9 +13,15 @@
   <link rel="icon" type="image/png" sizes="32x32" href="{{ 'favicon-32.png' | url }}">
   <link rel="icon" type="image/png" sizes="512x512" href="{{ 'favicon-io-emerald-512.png' | url }}">
   <link rel="apple-touch-icon" href="{{ 'apple-touch-icon.png' | url }}">
-  {% for language in config.extra.languages %}
-    <link rel="alternate" hreflang="{{ language.locale }}" href="{{ base_url }}/{{ language.path }}">
-  {% endfor %}
+  {% if page.file.alternates is defined %}
+    {% for locale, alternate_file in page.file.alternates.items() %}
+      <link rel="alternate" hreflang="{{ locale }}" href="{{ config.site_url }}{% if alternate_file.url != './' %}{{ alternate_file.url }}{% endif %}">
+    {% endfor %}
+  {% else %}
+    {% for language in config.extra.languages %}
+      <link rel="alternate" hreflang="{{ language.locale }}" href="{{ base_url }}/{{ language.path }}">
+    {% endfor %}
+  {% endif %}
   {% for path in config.extra_css %}
     <link href="{{ path | url }}" rel="stylesheet">
   {% endfor %}

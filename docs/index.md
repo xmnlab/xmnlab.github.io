@@ -441,9 +441,23 @@ description: Warm, clear guidance for your next chapter. Mentoring, advisory, an
         </div>
       </div>
       -->
-      <div class="row mt-4">
-        <div class="col-lg-8">
-          <div class="soft-card p-4 bg-peach">
+      <div class="row g-4 mt-4">
+        <div class="col-lg-6">
+          <div class="soft-card p-4 h-100 bg-mint">
+            <div class="row g-3 align-items-center">
+              <div class="col-md">
+                <h3 class="h5 mb-1">Blog on this site</h3>
+                <p class="mb-2">Longer-form notes, essays, and practical guides published here.</p>
+                <small class="text-secondary">Built with MkDocs.</small>
+              </div>
+              <div class="col-md-auto">
+                <a class="btn btn-primary" href="blog/">Read the blog</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="soft-card p-4 h-100 bg-peach">
             <div class="row g-3 align-items-center">
               <div class="col-md">
                 <h3 class="h5 mb-1">Notes on Substack</h3>

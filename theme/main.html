@@ -1,5 +1,14 @@
 {% set current_locale = i18n_page_locale | default(config.extra.default_locale, true) %}
 {% set ui = config.extra.ui.get(current_locale, config.extra.ui[config.extra.default_locale]) %}
+{% set current_language = namespace(path='') %}
+{% for language in config.extra.languages %}
+  {% if language.locale == current_locale %}
+    {% set current_language.path = language.path %}
+  {% endif %}
+{% endfor %}
+{% set home_url = base_url ~ '/' ~ current_language.path %}
+{% set blog_url = home_url ~ 'blog/' %}
+{% set is_home = page.url == '' or page.url == current_language.path %}
 <!DOCTYPE html>
 <html lang="{{ current_locale }}">
   {% include "partials/head.html" %}
@@ -15,7 +24,11 @@
     {% endif %}
 
     <main>
-      {{ page.content }}
+      {% if page.meta.layout == "post" %}
+        {% include "partials/post.html" %}
+      {% else %}
+        {{ page.content }}
+      {% endif %}
     </main>
 
     {% include "partials/footer.html" %}

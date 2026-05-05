@@ -1,6 +1,6 @@
 <nav id="mainNav" class="navbar navbar-expand-lg navbar-light">
   <div class="container py-2">
-    <a class="navbar-brand fw-semibold" href="#top">Ivan Ogasawara</a>
+    <a class="navbar-brand fw-semibold" href="{% if is_home %}#top{% else %}{{ home_url }}{% endif %}">Ivan Ogasawara</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
             aria-controls="nav" aria-expanded="false" aria-label="{{ ui.toggle_navigation }}">
       <span class="navbar-toggler-icon"></span>
@@ -9,17 +9,21 @@
     <div id="nav" class="collapse navbar-collapse">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
         {% for item in config.extra.nav_sections %}
-          <li class="nav-item"><a class="nav-link" href="#{{ item.id }}">{{ ui.nav[item.label_key] }}</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% if is_home %}#{{ item.id }}{% else %}{{ home_url }}#{{ item.id }}{% endif %}">{{ ui.nav[item.label_key] }}</a>
+          </li>
         {% endfor %}
+        <li class="nav-item"><a class="nav-link" href="{{ blog_url }}">{{ ui.nav.blog }}</a></li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             {{ ui.language }}
           </a>
           <ul class="dropdown-menu dropdown-menu-end">
             {% for language in config.extra.languages %}
+              {% set alternate = page.file.alternates.get(language.locale) if page.file.alternates is defined else none %}
               <li>
                 <a class="dropdown-item{% if language.locale == current_locale %} active{% endif %}"
-                   href="{{ base_url }}/{{ language.path }}"
+                   href="{% if alternate %}{{ base_url }}/{% if alternate.url != './' %}{{ alternate.url }}{% endif %}{% else %}{{ base_url }}/{{ language.path }}{% endif %}"
                    lang="{{ language.locale }}"
                    {% if language.locale == current_locale %}aria-current="true"{% endif %}>
                   {{ language.name }}
@@ -29,7 +33,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="btn btn-primary ms-lg-2" href="#contact">{{ ui.contact }}</a>
+          <a class="btn btn-primary ms-lg-2" href="{% if is_home %}#contact{% else %}{{ home_url }}#contact{% endif %}">{{ ui.contact }}</a>
         </li>
       </ul>
     </div>

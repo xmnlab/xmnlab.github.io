@@ -7,8 +7,6 @@ This site uses MkDocs with [`mkdocs-static-i18n`](https://ultrabug.github.io/mkd
 - English (`en`) — default, built at `/`
 - Spanish (`es`) — built at `/es/`
 - Portuguese (`pt`) — built at `/pt/`
-- French (`fr`) — built at `/fr/`
-- Italian (`it`) — built at `/it/`
 
 When a translated page is missing, the plugin falls back to the English source and the theme shows a notice.
 
@@ -22,12 +20,10 @@ cp docs/index.md docs/index.es.md   # Spanish example
 
 Then edit the copied file. Keep the HTML structure, ids, form fields, links, and image paths intact, and translate only the visible text and metadata.
 
-For other languages, use the configured locale suffix:
+For Portuguese, use the configured locale suffix:
 
 ```bash
 cp docs/index.md docs/index.pt.md
-cp docs/index.md docs/index.fr.md
-cp docs/index.md docs/index.it.md
 ```
 
 ## Add another language
@@ -49,3 +45,17 @@ Recommended workflow:
 4. Run `mkdocs serve` or `mkdocs build --strict` before publishing.
 
 If you still want a runtime machine-translation option, evaluate a plugin such as `mkdocs-google-translate` separately and enable it only after confirming the privacy and reliability trade-offs are acceptable.
+
+## Translating blog posts
+
+Use the same suffix structure for blog pages and posts. Examples:
+
+```bash
+cp docs/blog/index.md docs/blog/index.es.md
+cp docs/blog/posts/2026-example/index.md docs/blog/posts/2026-example/index.es.md
+cp docs/blog/posts/2026-example/index.md docs/blog/posts/2026-example/index.pt.md
+```
+
+Each post should live in its own folder and use `index.md` for English, `index.es.md` for Spanish, and `index.pt.md` for Portuguese. Keep folder slugs, dates, metadata keys, and links stable where possible. Translate the visible content and metadata values. The language switcher uses the matching localized page/post path, so readers can switch between translations without returning to the home page.
+
+If a translated blog post is missing, `fallback_to_default: true` lets MkDocs build the English post under the localized path and the theme displays the fallback notice.

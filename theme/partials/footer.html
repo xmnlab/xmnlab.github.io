@@ -3,9 +3,10 @@
   <div class="container small text-secondary d-flex flex-wrap justify-content-between align-items-center gap-3">
     <div>
       © <span id="year"></span> Ivan Ogasawara •
-      <a class="footer-link" href="#work-with-me">{{ ui.footer.work_with_me }}</a> •
-      <a class="footer-link" href="#speaking">{{ ui.footer.speaking }}</a> •
-      <a class="footer-link" href="#contact">{{ ui.footer.contact }}</a>
+      <a class="footer-link" href="{% if is_home %}#work-with-me{% else %}{{ home_url }}#work-with-me{% endif %}">{{ ui.footer.work_with_me }}</a> •
+      <a class="footer-link" href="{% if is_home %}#speaking{% else %}{{ home_url }}#speaking{% endif %}">{{ ui.footer.speaking }}</a> •
+      <a class="footer-link" href="{{ blog_url }}">{{ ui.nav.blog }}</a> •
+      <a class="footer-link" href="{% if is_home %}#contact{% else %}{{ home_url }}#contact{% endif %}">{{ ui.footer.contact }}</a>
     </div>
 
     <div class="social-links d-flex align-items-center gap-2">

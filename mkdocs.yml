@@ -1,7 +1,7 @@
 site_name: Ivan Ogasawara
 site_author: Ivan Ogasawara
 site_description: Warm, clear guidance for your next chapter. Mentoring, advisory, and workshops for people and teams building meaningful technology.
-site_url: https://xmnlab.github.io/
+site_url: https://ivanogasawara.com/
 repo_url: https://github.com/xmnlab/xmnlab.github.io
 repo_name: xmnlab/xmnlab.github.io
 
@@ -10,8 +10,16 @@ site_dir: site
 use_directory_urls: true
 strict: true
 
+draft_docs: |
+  blog/drafts/**/*.md
+
+not_in_nav: |
+  blog/posts/**/*.md
+  blog/drafts/**/*.md
+
 nav:
   - Home: index.md
+  - Blog: blog/index.md
 
 theme:
   name: null
@@ -31,22 +39,13 @@ plugins:
           build: true
           nav_translations:
             Home: Inicio
+            Blog: Blog
         - locale: pt
           name: Português
           build: true
           nav_translations:
             Home: Início
-        - locale: fr
-          name: Français
-          build: true
-          nav_translations:
-            Home: Accueil
-        - locale: it
-          name: Italiano
-          build: true
-          nav_translations:
-            Home: Home
-
+            Blog: Blog
 markdown_extensions:
   - meta
 
@@ -68,12 +67,6 @@ extra:
     - locale: pt
       name: Português
       path: pt/
-    - locale: fr
-      name: Français
-      path: fr/
-    - locale: it
-      name: Italiano
-      path: it/
   nav_sections:
     - id: osl
       label_key: about_osl
@@ -97,6 +90,8 @@ extra:
       contact: Contact
       toggle_navigation: Toggle navigation
       translation_notice: This localized version is enabled, but this page is still using the English source until a translated Markdown file is added.
+      blog:
+        back_to_blog: Back to blog
       nav:
         about_osl: About OSL
         values: Values
@@ -106,6 +101,7 @@ extra:
         notes: Notes
         organizations: Organizations
         support: Support
+        blog: Blog
       footer:
         work_with_me: Work with me
         speaking: Training & Workshops
@@ -115,6 +111,8 @@ extra:
       contact: Contacto
       toggle_navigation: Alternar navegación
       translation_notice: Esta versión localizada está habilitada, pero esta página todavía usa el contenido en inglés hasta que se agregue un archivo Markdown traducido.
+      blog:
+        back_to_blog: Volver al blog
       nav:
         about_osl: Acerca de OSL
         values: Valores
@@ -124,6 +122,7 @@ extra:
         notes: Notas
         organizations: Organizaciones
         support: Apoyo
+        blog: Blog
       footer:
         work_with_me: Trabaja conmigo
         speaking: Formación y talleres
@@ -133,6 +132,8 @@ extra:
       contact: Contato
       toggle_navigation: Alternar navegação
       translation_notice: Esta versão localizada está habilitada, mas esta página ainda usa o conteúdo em inglês até que um arquivo Markdown traduzido seja adicionado.
+      blog:
+        back_to_blog: Voltar ao blog
       nav:
         about_osl: Sobre a OSL
         values: Valores
@@ -142,43 +143,8 @@ extra:
         notes: Notas
         organizations: Organizações
         support: Apoie
+        blog: Blog
       footer:
         work_with_me: Trabalhe comigo
         speaking: Treinamentos e workshops
         contact: Contato
-    fr:
-      language: Langue
-      contact: Contact
-      toggle_navigation: Ouvrir la navigation
-      translation_notice: Cette version localisée est activée, mais cette page utilise encore la source anglaise jusqu’à l’ajout d’un fichier Markdown traduit.
-      nav:
-        about_osl: À propos d’OSL
-        values: Valeurs
-        work_with_me: Travailler avec moi
-        speaking: Formations et ateliers
-        stories: Témoignages
-        notes: Notes
-        organizations: Organisations
-        support: Soutenir
-      footer:
-        work_with_me: Travailler avec moi
-        speaking: Formations et ateliers
-        contact: Contact
-    it:
-      language: Lingua
-      contact: Contatto
-      toggle_navigation: Apri navigazione
-      translation_notice: Questa versione localizzata è abilitata, ma la pagina usa ancora il contenuto in inglese finché non viene aggiunto un file Markdown tradotto.
-      nav:
-        about_osl: Informazioni su OSL
-        values: Valori
-        work_with_me: Lavora con me
-        speaking: Formazione e workshop
-        stories: Storie
-        notes: Note
-        organizations: Organizzazioni
-        support: Supporto
-      footer:
-        work_with_me: Lavora con me
-        speaking: Formazione e workshop
-        contact: Contatto
