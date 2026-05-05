@@ -1,0 +1,24 @@
+{% set current_locale = i18n_page_locale | default(config.extra.default_locale, true) %}
+{% set ui = config.extra.ui.get(current_locale, config.extra.ui[config.extra.default_locale]) %}
+<!DOCTYPE html>
+<html lang="{{ current_locale }}">
+  {% include "partials/head.html" %}
+  <body id="top">
+    {% include "partials/navbar.html" %}
+
+    {% if i18n_page_locale is defined and i18n_file_locale is defined and i18n_page_locale != i18n_file_locale %}
+      <div class="container mt-3">
+        <div class="alert alert-info small mb-0" role="status">
+          {{ ui.translation_notice }}
+        </div>
+      </div>
+    {% endif %}
+
+    <main>
+      {{ page.content }}
+    </main>
+
+    {% include "partials/footer.html" %}
+    {% include "partials/scripts.html" %}
+  </body>
+</html>

@@ -1,0 +1,184 @@
+site_name: Ivan Ogasawara
+site_author: Ivan Ogasawara
+site_description: Warm, clear guidance for your next chapter. Mentoring, advisory, and workshops for people and teams building meaningful technology.
+site_url: https://xmnlab.github.io/
+repo_url: https://github.com/xmnlab/xmnlab.github.io
+repo_name: xmnlab/xmnlab.github.io
+
+docs_dir: docs
+site_dir: site
+use_directory_urls: true
+strict: true
+
+nav:
+  - Home: index.md
+
+theme:
+  name: null
+  custom_dir: theme
+
+plugins:
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: es
+          name: Español
+          build: true
+          nav_translations:
+            Home: Inicio
+        - locale: pt
+          name: Português
+          build: true
+          nav_translations:
+            Home: Início
+        - locale: fr
+          name: Français
+          build: true
+          nav_translations:
+            Home: Accueil
+        - locale: it
+          name: Italiano
+          build: true
+          nav_translations:
+            Home: Home
+
+markdown_extensions:
+  - meta
+
+extra_css:
+  - assets/stylesheets/site.css
+
+extra_javascript:
+  - assets/javascripts/site.js
+
+extra:
+  default_locale: en
+  languages:
+    - locale: en
+      name: English
+      path: ""
+    - locale: es
+      name: Español
+      path: es/
+    - locale: pt
+      name: Português
+      path: pt/
+    - locale: fr
+      name: Français
+      path: fr/
+    - locale: it
+      name: Italiano
+      path: it/
+  nav_sections:
+    - id: osl
+      label_key: about_osl
+    - id: values
+      label_key: values
+    - id: work-with-me
+      label_key: work_with_me
+    - id: speaking
+      label_key: speaking
+    - id: stories
+      label_key: stories
+    - id: notes
+      label_key: notes
+    - id: orgs
+      label_key: organizations
+    - id: sponsor
+      label_key: support
+  ui:
+    en:
+      language: Language
+      contact: Contact
+      toggle_navigation: Toggle navigation
+      translation_notice: This localized version is enabled, but this page is still using the English source until a translated Markdown file is added.
+      nav:
+        about_osl: About OSL
+        values: Values
+        work_with_me: Work with me
+        speaking: Training & Workshops
+        stories: Stories
+        notes: Notes
+        organizations: Organizations
+        support: Support
+      footer:
+        work_with_me: Work with me
+        speaking: Training & Workshops
+        contact: Contact
+    es:
+      language: Idioma
+      contact: Contacto
+      toggle_navigation: Alternar navegación
+      translation_notice: Esta versión localizada está habilitada, pero esta página todavía usa el contenido en inglés hasta que se agregue un archivo Markdown traducido.
+      nav:
+        about_osl: Acerca de OSL
+        values: Valores
+        work_with_me: Trabaja conmigo
+        speaking: Formación y talleres
+        stories: Historias
+        notes: Notas
+        organizations: Organizaciones
+        support: Apoyo
+      footer:
+        work_with_me: Trabaja conmigo
+        speaking: Formación y talleres
+        contact: Contacto
+    pt:
+      language: Idioma
+      contact: Contato
+      toggle_navigation: Alternar navegação
+      translation_notice: Esta versão localizada está habilitada, mas esta página ainda usa o conteúdo em inglês até que um arquivo Markdown traduzido seja adicionado.
+      nav:
+        about_osl: Sobre a OSL
+        values: Valores
+        work_with_me: Trabalhe comigo
+        speaking: Treinamentos e workshops
+        stories: Histórias
+        notes: Notas
+        organizations: Organizações
+        support: Apoie
+      footer:
+        work_with_me: Trabalhe comigo
+        speaking: Treinamentos e workshops
+        contact: Contato
+    fr:
+      language: Langue
+      contact: Contact
+      toggle_navigation: Ouvrir la navigation
+      translation_notice: Cette version localisée est activée, mais cette page utilise encore la source anglaise jusqu’à l’ajout d’un fichier Markdown traduit.
+      nav:
+        about_osl: À propos d’OSL
+        values: Valeurs
+        work_with_me: Travailler avec moi
+        speaking: Formations et ateliers
+        stories: Témoignages
+        notes: Notes
+        organizations: Organisations
+        support: Soutenir
+      footer:
+        work_with_me: Travailler avec moi
+        speaking: Formations et ateliers
+        contact: Contact
+    it:
+      language: Lingua
+      contact: Contatto
+      toggle_navigation: Apri navigazione
+      translation_notice: Questa versione localizzata è abilitata, ma la pagina usa ancora il contenuto in inglese finché non viene aggiunto un file Markdown tradotto.
+      nav:
+        about_osl: Informazioni su OSL
+        values: Valori
+        work_with_me: Lavora con me
+        speaking: Formazione e workshop
+        stories: Storie
+        notes: Note
+        organizations: Organizzazioni
+        support: Supporto
+      footer:
+        work_with_me: Lavora con me
+        speaking: Formazione e workshop
+        contact: Contatto

@@ -1,0 +1,102 @@
+:root{
+      /* life‑forward palette */
+      --brand: #10b981; /* emerald */
+      --brand-2: #38bdf8; /* sky */
+      --brand-3: #fb923c; /* orange */
+      --ink-1:#0f172a; --ink-2:#475569;
+      --bg-hero: linear-gradient(180deg,#ecfdf5 0%,#ffffff 50%);
+    }
+    html,body{font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", sans-serif; color:var(--ink-2)}
+
+    /* Smooth anchor scrolling + active state styling */
+    html { scroll-behavior: smooth; }
+    .navbar .nav-link.active {
+      color: var(--brand) !important;
+      font-weight: 600;
+      text-underline-offset: 6px;
+      text-decoration: underline;
+    }
+
+    h1,h2,h3,h4{font-family: Fraunces, Georgia, serif; color:var(--ink-1)}
+    .navbar{background:#ECFDF5 !important; border:0 !important; box-shadow:none !important}
+    .btn-primary{background:var(--brand); border-color:var(--brand)}
+    .btn-primary:hover{filter:brightness(.95)}
+    .btn-outline-primary{color:var(--brand); border-color:var(--brand)}
+    .btn-outline-primary:hover{background:var(--brand); color:#fff}
+    .chip{border:1px solid rgba(2,6,23,.08); border-radius:999px; padding:.35rem .7rem; font-weight:500}
+    .hero{background:var(--bg-hero)}
+    .hero .lead{font-size:1.1rem}
+    .figure-hero{aspect-ratio: 4/5; border-radius: 1.25rem; overflow:hidden}
+    .img-cover{width:100%; height:100%; object-fit:cover}
+    .section-title{letter-spacing:.3px}
+    .soft-card{border:1px solid rgba(2,6,23,.06); border-radius:1.25rem}
+    .soft-shadow{box-shadow: 0 15px 40px rgba(2,6,23,.08)}
+    .quote{font-family: Fraunces, Georgia, serif; font-size:1.4rem; line-height:1.4}
+    .sig{font-family: Caveat, ui-script, cursive; font-size:1.8rem; color:var(--ink-1)}
+    .divider{height:1px; background:linear-gradient(90deg, transparent, rgba(2,6,23,.08), transparent)}
+    .values-icon{font-size:1.1rem; width:2rem; height:2rem; display:inline-grid; place-items:center; border-radius:.6rem}
+    .bg-mint{background:#ecfdf5}
+    .bg-sky{background:#f0f9ff}
+    .bg-peach{background:#fff7ed}
+    .ratio-portrait{aspect-ratio:3/4}
+    .footer-link{opacity:.9}
+    /* navbar overlay removed */
+    .sponsor-embed iframe{width:100%;max-width:600px;height:225px;border:0}
+    
+    .clamp-3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+    #storiesCarousel .carousel-inner{overflow:visible}
+    #storiesCarousel .carousel-inner{overflow:visible}
+    /* Reduce control hit areas so they don't overlay the first/last cards */
+    #storiesCarousel .carousel-control-prev,
+    #storiesCarousel .carousel-control-next{width:48px; pointer-events:none}
+    #storiesCarousel .carousel-control-prev .carousel-control-prev-icon,
+    #storiesCarousel .carousel-control-next .carousel-control-next-icon{pointer-events:auto}
+    /* Ensure card content is clickable above any overlays */
+    #storiesCarousel .card{position:relative; z-index:2}
+    #storiesCarousel .carousel-inner{overflow:visible}
+    /* Standardize testimonials layout */
+    #stories .card-body{display:flex; flex-direction:column}
+    #stories .toggle-more{align-self:flex-start}
+    #storiesCarousel .carousel-inner{overflow:visible}
+    /* Hide preview when a card's collapse is open (robust, CSS-level) */
+    #stories .card-body:has(.collapse.show) .preview, #stories .card-body:has(.collapsing) .preview{display:none !important}
+
+    /* Testimonials: hide preview while full text is opening/open */
+    #stories .card-body:has(.collapse.show) .preview,
+    #stories .card-body:has(.collapsing) .preview { display: none !important; }
+
+    /* Ensure card content clicks aren't blocked by carousel controls */
+    #storiesCarousel .carousel-inner { overflow: visible; }
+    #stories .card-body { display: flex; flex-direction: column; }
+
+    /* Dots below the Stories carousel */
+    #storiesCarousel .carousel-indicators {
+      position: static;            /* place under the carousel */
+      margin-top: .75rem;
+      display: flex;
+      justify-content: center;
+      gap: .5rem;
+    }
+
+    #storiesCarousel .carousel-indicators [data-bs-target] {
+      width: 10px;
+      height: 10px;
+      padding: 0;
+      border-radius: 50%;
+      background-color: rgba(15, 23, 42, .25);
+      border: 0;                   /* kill default borders that cause the '⋮' look */
+      border-top: 0;
+      border-bottom: 0;
+    }
+
+    #storiesCarousel .carousel-indicators .active {
+      background-color: var(--brand); /* emerald */
+    }
+
+
+    .social-links .btn {
+      border-radius: 999px;
+      padding: .4rem .6rem;
+      line-height: 1;
+    }
+    .social-links .btn i { font-size: 1rem; }

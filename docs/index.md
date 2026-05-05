@@ -1,155 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Ivan Ogasawara — Mentoring, Advisory & Workshops</title>
-  <meta name="description" content="Warm, clear guidance for your next chapter. Mentoring, advisory, and workshops for people and teams building meaningful technology.">
-  <meta name="theme-color" content="#10b981" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Caveat:wght@600&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" crossorigin="anonymous">
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <style>
-    :root{
-      /* life‑forward palette */
-      --brand: #10b981; /* emerald */
-      --brand-2: #38bdf8; /* sky */
-      --brand-3: #fb923c; /* orange */
-      --ink-1:#0f172a; --ink-2:#475569;
-      --bg-hero: linear-gradient(180deg,#ecfdf5 0%,#ffffff 50%);
-    }
-    html,body{font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", sans-serif; color:var(--ink-2)}
+---
+title: Ivan Ogasawara — Mentoring, Advisory & Workshops
+description: Warm, clear guidance for your next chapter. Mentoring, advisory, and workshops for people and teams building meaningful technology.
+---
 
-    /* Smooth anchor scrolling + active state styling */
-    html { scroll-behavior: smooth; }
-    .navbar .nav-link.active {
-      color: var(--brand) !important;
-      font-weight: 600;
-      text-underline-offset: 6px;
-      text-decoration: underline;
-    }
-
-    h1,h2,h3,h4{font-family: Fraunces, Georgia, serif; color:var(--ink-1)}
-    .navbar{background:#ECFDF5 !important; border:0 !important; box-shadow:none !important}
-    .btn-primary{background:var(--brand); border-color:var(--brand)}
-    .btn-primary:hover{filter:brightness(.95)}
-    .btn-outline-primary{color:var(--brand); border-color:var(--brand)}
-    .btn-outline-primary:hover{background:var(--brand); color:#fff}
-    .chip{border:1px solid rgba(2,6,23,.08); border-radius:999px; padding:.35rem .7rem; font-weight:500}
-    .hero{background:var(--bg-hero)}
-    .hero .lead{font-size:1.1rem}
-    .figure-hero{aspect-ratio: 4/5; border-radius: 1.25rem; overflow:hidden}
-    .img-cover{width:100%; height:100%; object-fit:cover}
-    .section-title{letter-spacing:.3px}
-    .soft-card{border:1px solid rgba(2,6,23,.06); border-radius:1.25rem}
-    .soft-shadow{box-shadow: 0 15px 40px rgba(2,6,23,.08)}
-    .quote{font-family: Fraunces, Georgia, serif; font-size:1.4rem; line-height:1.4}
-    .sig{font-family: Caveat, ui-script, cursive; font-size:1.8rem; color:var(--ink-1)}
-    .divider{height:1px; background:linear-gradient(90deg, transparent, rgba(2,6,23,.08), transparent)}
-    .values-icon{font-size:1.1rem; width:2rem; height:2rem; display:inline-grid; place-items:center; border-radius:.6rem}
-    .bg-mint{background:#ecfdf5}
-    .bg-sky{background:#f0f9ff}
-    .bg-peach{background:#fff7ed}
-    .ratio-portrait{aspect-ratio:3/4}
-    .footer-link{opacity:.9}
-    /* navbar overlay removed */
-    .sponsor-embed iframe{width:100%;max-width:600px;height:225px;border:0}
-    
-    .clamp-3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-    #storiesCarousel .carousel-inner{overflow:visible}
-    #storiesCarousel .carousel-inner{overflow:visible}
-    /* Reduce control hit areas so they don't overlay the first/last cards */
-    #storiesCarousel .carousel-control-prev,
-    #storiesCarousel .carousel-control-next{width:48px; pointer-events:none}
-    #storiesCarousel .carousel-control-prev .carousel-control-prev-icon,
-    #storiesCarousel .carousel-control-next .carousel-control-next-icon{pointer-events:auto}
-    /* Ensure card content is clickable above any overlays */
-    #storiesCarousel .card{position:relative; z-index:2}
-    #storiesCarousel .carousel-inner{overflow:visible}
-    /* Standardize testimonials layout */
-    #stories .card-body{display:flex; flex-direction:column}
-    #stories .toggle-more{align-self:flex-start}
-    #storiesCarousel .carousel-inner{overflow:visible}
-    /* Hide preview when a card's collapse is open (robust, CSS-level) */
-    #stories .card-body:has(.collapse.show) .preview, #stories .card-body:has(.collapsing) .preview{display:none !important}
-
-    /* Testimonials: hide preview while full text is opening/open */
-    #stories .card-body:has(.collapse.show) .preview,
-    #stories .card-body:has(.collapsing) .preview { display: none !important; }
-
-    /* Ensure card content clicks aren't blocked by carousel controls */
-    #storiesCarousel .carousel-inner { overflow: visible; }
-    #stories .card-body { display: flex; flex-direction: column; }
-
-    /* Dots below the Stories carousel */
-    #storiesCarousel .carousel-indicators {
-      position: static;            /* place under the carousel */
-      margin-top: .75rem;
-      display: flex;
-      justify-content: center;
-      gap: .5rem;
-    }
-
-    #storiesCarousel .carousel-indicators [data-bs-target] {
-      width: 10px;
-      height: 10px;
-      padding: 0;
-      border-radius: 50%;
-      background-color: rgba(15, 23, 42, .25);
-      border: 0;                   /* kill default borders that cause the '⋮' look */
-      border-top: 0;
-      border-bottom: 0;
-    }
-
-    #storiesCarousel .carousel-indicators .active {
-      background-color: var(--brand); /* emerald */
-    }
-
-
-    .social-links .btn {
-      border-radius: 999px;
-      padding: .4rem .6rem;
-      line-height: 1;
-    }
-    .social-links .btn i { font-size: 1rem; }
-
-  </style>
-</head>
-<body>
-  <!-- NAV -->
-  <nav id="mainNav" class="navbar navbar-expand-lg navbar-light">
-    <div class="container py-2">
-      <a class="navbar-brand fw-semibold" href="#">Ivan Ogasawara</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
-              aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div id="nav" class="collapse navbar-collapse">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
-          <li class="nav-item"><a class="nav-link" href="#osl">About OSL</a></li>
-          <li class="nav-item"><a class="nav-link" href="#values">Values</a></li>
-          <li class="nav-item"><a class="nav-link" href="#work-with-me">Work with me</a></li>
-          <li class="nav-item"><a class="nav-link" href="#speaking">Training &amp; Workshops</a></li>
-          <li class="nav-item"><a class="nav-link" href="#stories">Stories</a></li>
-          <li class="nav-item"><a class="nav-link" href="#orgs">Organizations</a></li>
-          <li class="nav-item"><a class="nav-link" href="#notes">Notes</a></li>
-          <li class="nav-item"><a class="nav-link" href="#sponsor">Support</a></li>
-          <li class="nav-item">
-            <a class="btn btn-primary ms-lg-2" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- HERO -->
-  <header class="hero py-5">
+<!-- HERO -->
+<header class="hero py-5">
     <div class="container">
       <div class="row align-items-center g-5">
         <div class="col-12 col-lg-6">
@@ -301,6 +156,7 @@
           <figure class="ratio ratio-21x9 soft-shadow rounded" style="overflow:hidden">
             <img class="img-cover" alt="A warm, engaging workshop in progress" loading="lazy"
                  src="/images/scipyla.jpg">
+          </figure>
         </div>
       </div>
     </div>
@@ -373,7 +229,7 @@
                 <div class="card h-100 soft-shadow">
                   <div class="card-body p-4 d-flex flex-column">
                     <div class="d-flex align-items-start gap-3 mb-3">
-                      <img src="images/testimonials/Sandro-Loch.jpg" alt="Portrait of Sandro Loch" class="rounded-circle" style="width:56px;height:56px;object-fit:cover">
+                      <img src="/images/testimonials/Sandro-Loch.jpg" alt="Portrait of Sandro Loch" class="rounded-circle" style="width:56px;height:56px;object-fit:cover">
                       <div>
                         <div class="fw-semibold">Sandro Loch</div>
                         <div class="small text-secondary">Research Software Engineer · LiteRev</div>
@@ -838,101 +694,3 @@
       </div>
     </div>
   </section>
-
-  <div class="divider"></div>
-  <footer class="py-4">
-    <div class="container small text-secondary d-flex flex-wrap justify-content-between align-items-center gap-3">
-      <div>
-        © <span id="year"></span> Ivan Ogasawara •
-        <a class="footer-link" href="#work-with-me">Work with me</a> •
-        <a class="footer-link" href="#speaking">Training &amp; Workshops</a> •
-        <a class="footer-link" href="#contact">Contact</a>
-      </div>
-
-      <div class="social-links d-flex align-items-center gap-2">
-        <a class="btn btn-outline-primary btn-sm" href="https://www.linkedin.com/in/ivan-ogasawara" target="_blank" rel="noopener" aria-label="LinkedIn">
-          <i class="fa-brands fa-linkedin"></i>
-        </a>
-        <a class="btn btn-outline-primary btn-sm" href="https://github.com/xmnlab" target="_blank" rel="noopener" aria-label="GitHub">
-          <i class="fa-brands fa-github"></i>
-        </a>
-        <a class="btn btn-outline-primary btn-sm" href="https://iogasawara.substack.com/" target="_blank" rel="noopener" aria-label="Substack">
-          <i class="fa-solid fa-newspaper"></i>
-        </a>
-      </div>
-    </div>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-  <script>
-    // Web3Forms AJAX submit with inline feedback
-    (function () {
-      const form = document.getElementById('contact-form');
-      const statusBox = document.getElementById('form-status');
-      const submitBtn = document.getElementById('contact-submit');
-
-      if (!form) return;
-
-      form.addEventListener('submit', async function (e) {
-        e.preventDefault();
-
-        // Update subject to include the sender's name (nice for your inbox)
-        const name = (document.getElementById('name')?.value || '').trim();
-        const subjectInput = form.querySelector('input[name="subject"]');
-        if (subjectInput) subjectInput.value = 'New inquiry from ' + (name || 'website');
-
-        // UI: disable + show progress
-        const originalHTML = submitBtn.innerHTML;
-        submitBtn.disabled = true;
-        submitBtn.innerHTML = 'Sending…';
-
-        // Clear old status
-        statusBox.innerHTML = '';
-
-        try {
-          const formData = new FormData(form);
-          const res = await fetch('https://api.web3forms.com/submit', {
-            method: 'POST',
-            body: formData,
-            headers: { 'Accept': 'application/json' }
-          });
-          const data = await res.json();
-
-          if (res.ok) {
-            statusBox.innerHTML = '<div class="alert alert-success mb-0">Thanks! I received your message and will reply shortly.</div>';
-            form.reset();
-          } else {
-            throw new Error(data.message || 'Submission failed.');
-          }
-        } catch (err) {
-          statusBox.innerHTML =
-            '<div class="alert alert-danger mb-0">Sorry, the form could not be sent right now. Please email me at ' +
-            '<a href="mailto:me@ivanogasawara.com">me@ivanogasawara.com</a>.</div>';
-        } finally {
-          submitBtn.disabled = false;
-          submitBtn.innerHTML = originalHTML;
-        }
-      });
-    })();
-  </script>
-
-  <script>
-    // ScrollSpy on the whole page
-    window.addEventListener('load', function () {
-      // Ensure the nav has id="mainNav"
-      if (!document.querySelector('#mainNav')) return;
-
-      // Init or reuse existing instance
-      const existing = bootstrap.ScrollSpy.getInstance(document.body);
-      const spy = existing || new bootstrap.ScrollSpy(document.body, {
-        target: '#mainNav',
-        offset: 80   // tweak if you later make the navbar sticky/taller
-      });
-
-      // Refresh once content/images are fully laid out
-      setTimeout(() => spy.refresh(), 400);
-    });
-  </script>
-
-</body>
-</html>
