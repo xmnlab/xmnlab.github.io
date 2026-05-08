@@ -59,11 +59,11 @@ A pergunta mais completa talvez seja:
 
 Este texto é uma reflexão sobre o presente, mas também uma provocação sobre o futuro. Se continuarmos avançando no ritmo atual, que tipo de sociedade poderemos encontrar em **2044**?
 
+Esse artigo escolheu o ano de 2044 como referência por não estar tão próximo do ano atual, porém não tão distante para oferecer um panorama tão estilo ficção científica.
+
 Uma sociedade onde a IA amplia oportunidades, democratiza conhecimento e libera humanos de tarefas repetitivas? Ou uma sociedade dividida entre uma elite tecnológica integrada a sistemas inteligentes e uma massa de trabalhadores deslocados, monitorados e tratados como descartáveis?
 
-Para pensar sobre isso, vamos passar por um breve histórico da Inteligência Artificial, discutir seus impactos socioeconômicos, ambientais e políticos, refletir sobre a combinação entre IA e computação quântica, analisar possíveis cenários de futuro e usar uma analogia com *Battle Angel Alita*, de Yukito Kishiro.
-
-Em *Battle Angel Alita*, a humanidade está dividida entre espaços simbólicos de poder e exclusão: a Cidade da Sucata, Zalem e Jerú. Essa estrutura ficcional nos ajuda a pensar sobre um futuro onde tecnologia, desigualdade, consciência, corpo, trabalho e controle social se misturam.
+Para pensar sobre isso, vamos passar por um breve histórico da Inteligência Artificial, discutir seus impactos socioeconômicos, ambientais e políticos, refletir sobre a combinação entre IA e computação quântica, analisar possíveis cenários de futuro e, apenas por diversão, usar uma analogia com *Battle Angel Alita*, de Yukito Kishiro.
 
 A ideia não é tratar a IA como mágica, nem como uma ameaça inevitável. A postura mais produtiva é uma combinação de curiosidade, preparo, pensamento crítico e responsabilidade.
 
