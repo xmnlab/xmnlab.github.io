@@ -707,101 +707,7 @@ A IA deve ser usada como parceira de raciocínio, não como substituta da consci
 
 ---
 
-# 8. Dez ferramentas de IA que estudantes podem explorar
-
-A lista abaixo não é uma recomendação definitiva, mas um mapa inicial de ferramentas úteis em áreas diferentes. O ideal é experimentar, comparar e escolher conforme o objetivo.
-
-Também é importante lembrar que ferramentas mudam rápido. Antes de publicar ou apresentar esse conteúdo, vale revisar nomes, preços, planos e funcionalidades.
-
----
-
-## 1. ChatGPT — estudo, escrita, programação e análise
-
-Pode ser usado para explicar conceitos, revisar textos, gerar ideias, analisar dados, criar códigos, estudar idiomas, montar planos de estudo e simular entrevistas.
-
-É especialmente útil quando usado de forma iterativa: perguntando, revisando, pedindo alternativas, testando exemplos e verificando resultados.
-
----
-
-## 2. NotebookLM — estudo baseado em fontes
-
-Útil para estudar PDFs, artigos, anotações e materiais de aula.
-
-O diferencial é trabalhar de forma mais conectada às fontes fornecidas pelo usuário. Pode ajudar estudantes a resumir materiais, gerar perguntas de revisão, organizar ideias e transformar documentos longos em explicações mais acessíveis.
-
----
-
-## 3. Perplexity — pesquisa assistida por IA
-
-Boa opção para buscar respostas com referências, explorar temas atuais e encontrar fontes rapidamente.
-
-Deve ser usada com revisão crítica, especialmente em temas acadêmicos, jurídicos, médicos, científicos ou profissionais.
-
----
-
-## 4. Claude — leitura, escrita e análise de documentos longos
-
-Pode ser útil para resumir textos extensos, revisar argumentos, estruturar ensaios e trabalhar com documentos complexos.
-
-É uma ferramenta interessante para quem precisa lidar com textos longos, planejamento, escrita analítica e revisão de conteúdo.
-
----
-
-## 5. Gamma — criação de apresentações
-
-Ajuda a transformar ideias em apresentações, documentos visuais e páginas simples.
-
-Pode ser útil para estudantes que precisam apresentar trabalhos, projetos, relatórios ou ideias de forma visualmente organizada.
-
-Mesmo assim, o estudante deve revisar a estrutura, os argumentos e os dados. Uma apresentação bonita não garante uma apresentação correta.
-
----
-
-## 6. Canva AI — design e comunicação visual
-
-Útil para posts, apresentações, currículos, materiais de divulgação, infográficos e peças visuais simples.
-
-Pode ajudar estudantes a melhorar a comunicação visual de projetos, especialmente quando não possuem experiência avançada em design.
-
----
-
-## 7. Cursor — programação com IA
-
-Editor de código com recursos de assistência por IA.
-
-Pode ajudar a planejar, escrever, revisar e explicar código dentro de um projeto. É útil para quem está aprendendo programação, mas deve ser usado com cuidado: gerar código sem entender pode criar dependência e erros difíceis de corrigir.
-
----
-
-## 8. GitHub Copilot — apoio à programação
-
-Ajuda com autocompletar código, gerar funções, explicar trechos e acelerar tarefas comuns de desenvolvimento.
-
-É especialmente útil para quem já está aprendendo programação e quer praticar com revisão.
-
-O ideal é usar como tutor e acelerador, não como substituto do aprendizado de lógica, estrutura de dados, testes e boas práticas.
-
----
-
-## 9. Zapier ou Make — automação de tarefas
-
-Permitem criar fluxos entre aplicativos, como enviar e-mails automáticos, atualizar planilhas, organizar formulários, criar notificações e integrar ferramentas sem precisar programar tudo do zero.
-
-São boas ferramentas para entender automação de processos, algo cada vez mais importante no mercado de trabalho.
-
----
-
-## 10. Suno, Runway ou ElevenLabs — criação multimídia
-
-Ferramentas desse tipo permitem explorar música, vídeo, voz sintética e criação audiovisual.
-
-São úteis para comunicação, marketing, educação, prototipagem e projetos criativos.
-
-Também levantam questões éticas importantes, especialmente sobre autoria, uso de voz, imagem, direitos autorais e criação de conteúdo sintético.
-
----
-
-# 9. O estudante do futuro não será apenas usuário de IA
+# 8. O estudante do futuro não será apenas usuário de IA
 
 O estudante do futuro precisa ser mais do que alguém que “usa ferramentas”.
 
@@ -829,7 +735,7 @@ No fim, talvez o futuro não pertença simplesmente a quem usa IA, mas a quem co
 
 ---
 
-# 10. Uma previsão para 2044
+# 9. Como será o futuro em 2044
 
 Em 2044, talvez a pergunta não seja mais se usamos IA. Todos usarão IA de alguma forma.
 
