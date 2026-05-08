@@ -11,23 +11,35 @@ layout: post
 
 Você acredita que robôs humanoides já podem trabalhar em linhas de produção reais?
 
+<!--
 Sim. A BMW já realizou pilotos com robôs humanoides em ambientes de produção automotiva, incluindo um projeto em Spartanburg com a Figure AI e outro em Leipzig com o robô AEON, dentro da ideia de “Physical AI”: IA aplicada a máquinas capazes de atuar no mundo físico. ([bmwgroup.com](https://www.bmwgroup.com/en/news/general/2026/humanoid-robot-in-leipzig.html))
+-->
 
 Você acredita que carros sem motorista já circulam em serviços comerciais de transporte?
 
+<!--
 Sim. A Waymo opera serviços de robotáxi em várias cidades, com veículos autônomos transportando passageiros sem motorista humano ao volante. Ao mesmo tempo, incidentes recentes, como interrupções de serviço por enchentes no Texas, mostram que a tecnologia já é real, mas ainda enfrenta limites práticos, climáticos, urbanos e regulatórios. ([waymo.com](https://waymo.com/))
+-->
 
 Você acredita que uma pessoa já conseguiu controlar um computador apenas com o pensamento?
 
+<!--
 Sim. Interfaces cérebro-computador já são uma realidade experimental. A Neuralink, por exemplo, desenvolve implantes cerebrais com o objetivo inicial de restaurar autonomia para pessoas com necessidades médicas não atendidas; em 2024, foi relatado que o primeiro paciente humano da empresa conseguia controlar um cursor de computador por meio do pensamento. ([neuralink.com](https://neuralink.com/))
+-->
 
 Você acredita que “teletransporte” já existe?
 
+<!--
 Depende do que chamamos de teletransporte. Teletransportar pessoas continua sendo ficção científica. Mas o **teletransporte quântico de informação** já foi demonstrado em redes reais: em 2026, Deutsche Telekom e Qunnect anunciaram um teste de teletransporte quântico em uma rede comercial de fibra óptica em Berlim. ([telekom.com](https://www.telekom.com/en/media/media-information/archive/teleportation-via-fiber-optics-in-berlin-1102518))
+-->
 
 Você acredita que sistemas de IA já conseguem escrever, programar, criar imagens, gerar vídeos, compor músicas, resumir livros, analisar dados e simular conversas complexas?
 
+<!--
 Sim. E talvez esse seja o ponto mais importante: muitas tecnologias que antes pareciam distantes já estão entrando em escolas, empresas, hospitais, escritórios, fábricas, laboratórios e plataformas digitais. Algumas ainda são experimentais. Outras já estão sendo comercializadas. Outras funcionam com limitações importantes. Mas todas apontam para a mesma direção: o futuro não está chegando de uma vez. Ele está sendo instalado em partes, produto por produto, laboratório por laboratório, cidade por cidade.
+-->
+
+A respostas para todas essas perguntas é "SIM!".
 
 Por isso, a pergunta não é apenas se essas tecnologias são possíveis.
 
