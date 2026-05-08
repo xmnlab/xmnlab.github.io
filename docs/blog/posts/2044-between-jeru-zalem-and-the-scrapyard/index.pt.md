@@ -244,33 +244,14 @@ Durante muito tempo, a automação parecia mais associada a máquinas industriai
 
 A substituição pode acontecer de várias formas. Em alguns casos, uma profissão inteira pode perder demanda. Em outros, a profissão continua existindo, mas com menos pessoas, porque cada profissional passa a produzir muito mais com apoio de IA. Também pode acontecer uma mudança no perfil da função: tarefas simples desaparecem, enquanto tarefas de supervisão, validação, estratégia, relacionamento humano e responsabilidade ganham mais importância.
 
-Um profissional de atendimento ao cliente pode ter parte do trabalho substituída por chatbots e agentes de voz.
+Podemos citar alguns exemplos de impacto em diferentes profissões:
 
-Um tradutor pode perder trabalhos simples de tradução direta, mas continuar necessário para revisão especializada, localização cultural e textos sensíveis.
-
-Um programador iniciante pode ter parte do trabalho automatizado por ferramentas de geração de código, enquanto programadores experientes passam a focar mais em arquitetura, revisão, segurança e integração.
-
-Um designer pode usar IA para gerar rascunhos visuais rapidamente, mas ainda precisa tomar decisões estéticas, estratégicas e de identidade de marca.
-
-Um analista financeiro pode ter relatórios automatizados, mas ainda precisa interpretar riscos, contexto econômico e decisões estratégicas.
-
-Um professor pode usar IA para criar materiais, exercícios e planos de aula, mas continua essencial na mediação humana, no acompanhamento emocional e na adaptação pedagógica.
-
-Um advogado pode automatizar pesquisas, resumos e rascunhos, mas continua responsável por interpretação, estratégia jurídica, ética e representação do cliente.
-
-Um médico pode usar IA como apoio diagnóstico, mas decisões clínicas, comunicação com pacientes e responsabilidade profissional continuam exigindo presença humana.
-
-Um jornalista pode usar IA para rascunhos e pesquisa, mas investigação, apuração, responsabilidade editorial e leitura crítica da realidade continuam sendo diferenciais humanos.
-
-Um profissional administrativo pode automatizar planilhas, relatórios, e-mails, agendamentos e fluxos internos, reduzindo a necessidade de tarefas operacionais repetitivas.
-
-Um pesquisador pode usar IA para revisar literatura, organizar referências, gerar hipóteses e apoiar análise de dados, mas ainda precisa dominar método científico, interpretação e validação.
-
-Um profissional de marketing pode automatizar anúncios, segmentações e variações de texto, mas ainda precisa entender comportamento humano, marca, cultura e estratégia.
-
-Um contador pode automatizar lançamentos, relatórios e classificações, mas ainda será necessário para interpretação fiscal, conformidade, auditoria e tomada de decisão.
-
-Um profissional de recursos humanos pode usar IA para triagem e análise, mas precisa ter cuidado com vieses, justiça, contexto humano e responsabilidade ética.
+* analista financeiro pode ter relatórios automatizados, mas ainda precisa interpretar riscos, contexto econômico e decisões estratégicas.
+* professor/a pode usar IA para criar materiais, exercícios e planos de aula, mas continua essencial na mediação humana, no acompanhamento emocional e na adaptação pedagógica.
+* médico/a pode usar IA como apoio diagnóstico, mas decisões clínicas, comunicação com pacientes e responsabilidade profissional continuam exigindo presença humana.
+* profissional administrativo pode automatizar planilhas, relatórios, e-mails, agendamentos e fluxos internos, reduzindo a necessidade de tarefas operacionais repetitivas.
+* pesquisador/a pode usar IA para revisar literatura, organizar referências, gerar hipóteses e apoiar análise de dados, mas ainda precisa dominar método científico, interpretação e validação.
+* profissional de marketing pode automatizar anúncios, segmentações e variações de texto, mas ainda precisa entender comportamento humano, marca, cultura e estratégia.
 
 Ou seja, o impacto da IA não é uniforme. Ela não substitui todas as pessoas da mesma forma. Ela substitui primeiro **tarefas**, depois pode reduzir a necessidade de certas **funções**, e só em casos mais extremos pode tornar algumas **profissões inteiras** menos relevantes.
 
