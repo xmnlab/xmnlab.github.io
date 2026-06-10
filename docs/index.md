@@ -104,10 +104,10 @@ description: Projects, writing, and open-source work by Ivan Ogasawara across re
       </div>
       <div class="col-lg-7">
         <article class="writing-card">
-          <div class="post-meta">2026-05-05 · Artificial intelligence</div>
-          <h3><a href="blog/posts/2044-between-jeru-zalem-and-the-scrapyard/">2044: Between Jeru, Zalem, and the Scrapyard</a></h3>
-          <p>Will Artificial Intelligence set us free — or turn people into waste from progress itself?</p>
-          <a class="read-more" href="blog/posts/2044-between-jeru-zalem-and-the-scrapyard/">Read essay <span aria-hidden="true">→</span></a>
+          <div class="post-meta">2026-05-10 · Relationships</div>
+          <h3><a href="blog/posts/relationships-are-living-parts-of-us/">Relationships Are Living Parts of Us</a></h3>
+          <p>Everything in life involves choice, whether conscious or unconscious, and our repeated choices shape what we nourish, neglect, protect, or allow to decay.</p>
+          <a class="read-more" href="blog/posts/relationships-are-living-parts-of-us/">Read essay <span aria-hidden="true">→</span></a>
         </article>
       </div>
     </div>

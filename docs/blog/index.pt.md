@@ -21,6 +21,12 @@ description: Notas e ensaios sobre mentoria, colaboração aberta, software, pes
       <div class="col-lg-8">
         <div class="small text-secondary text-uppercase mb-3">Posts</div>
         <article class="soft-card p-4 p-md-5 bg-white blog-card">
+          <div class="post-meta mb-2">2026-05-10 · Ivan Ogasawara</div>
+          <h2 class="h3 mb-2"><a href="posts/relationships-are-living-parts-of-us/">Relacionamentos são partes vivas de nós</a></h2>
+          <p class="mb-3">Tudo na vida envolve escolha, seja consciente ou inconsciente, e nossas escolhas repetidas moldam aquilo que nutrimos, negligenciamos, protegemos ou permitimos decair.</p>
+          <a class="btn btn-outline-primary" href="posts/relationships-are-living-parts-of-us/">Ler post</a>
+        </article>
+        <article class="soft-card p-4 p-md-5 bg-white blog-card mt-4">
           <div class="post-meta mb-2">2026-05-05 · Ivan Ogasawara</div>
           <h2 class="h3 mb-2"><a href="posts/2044-between-jeru-zalem-and-the-scrapyard/">2044: Entre Jerú, Zalem e a Cidade da Sucata</a></h2>
           <p class="mb-3">A Inteligência Artificial vai nos libertar — ou transformar pessoas em resíduos do próprio progresso?</p>

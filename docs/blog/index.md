@@ -21,6 +21,12 @@ description: Notes and essays on mentoring, open collaboration, software, resear
       <div class="col-lg-8">
         <div class="small text-secondary text-uppercase mb-3">Posts</div>
         <article class="soft-card p-4 p-md-5 bg-white blog-card">
+          <div class="post-meta mb-2">2026-05-10 · Ivan Ogasawara</div>
+          <h2 class="h3 mb-2"><a href="posts/relationships-are-living-parts-of-us/">Relationships Are Living Parts of Us</a></h2>
+          <p class="mb-3">Everything in life involves choice, whether conscious or unconscious, and our repeated choices shape what we nourish, neglect, protect, or allow to decay.</p>
+          <a class="btn btn-outline-primary" href="posts/relationships-are-living-parts-of-us/">Read post</a>
+        </article>
+        <article class="soft-card p-4 p-md-5 bg-white blog-card mt-4">
           <div class="post-meta mb-2">2026-05-05 · Ivan Ogasawara</div>
           <h2 class="h3 mb-2"><a href="posts/2044-between-jeru-zalem-and-the-scrapyard/">2044: Between Jeru, Zalem, and the Scrapyard</a></h2>
           <p class="mb-3">Will Artificial Intelligence set us free — or turn people into waste from progress itself?</p>

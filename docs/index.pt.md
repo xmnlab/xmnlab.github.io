@@ -104,10 +104,10 @@ description: Projetos, textos e trabalho open-source de Ivan Ogasawara em engenh
       </div>
       <div class="col-lg-7">
         <article class="writing-card">
-          <div class="post-meta">2026-05-05 · Inteligência artificial</div>
-          <h3><a href="blog/posts/2044-between-jeru-zalem-and-the-scrapyard/">2044: Entre Jerú, Zalem e a Cidade da Sucata</a></h3>
-          <p>A Inteligência Artificial vai nos libertar — ou transformar pessoas em resíduos do próprio progresso?</p>
-          <a class="read-more" href="blog/posts/2044-between-jeru-zalem-and-the-scrapyard/">Ler ensaio <span aria-hidden="true">→</span></a>
+          <div class="post-meta">2026-05-10 · Relacionamentos</div>
+          <h3><a href="blog/posts/relationships-are-living-parts-of-us/">Relacionamentos são partes vivas de nós</a></h3>
+          <p>Tudo na vida envolve escolha, seja consciente ou inconsciente, e nossas escolhas repetidas moldam aquilo que nutrimos, negligenciamos, protegemos ou permitimos decair.</p>
+          <a class="read-more" href="blog/posts/relationships-are-living-parts-of-us/">Ler ensaio <span aria-hidden="true">→</span></a>
         </article>
       </div>
     </div>
