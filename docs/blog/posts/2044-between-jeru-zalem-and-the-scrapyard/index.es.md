@@ -11,23 +11,35 @@ layout: post
 
 ¿Crees que robots humanoides ya pueden trabajar en líneas de producción reales?
 
-Sí. BMW ya realizó pruebas piloto con robots humanoides en ambientes de producción automotriz, incluyendo un proyecto en Spartanburg con Figure AI y otro en Leipzig con el robot AEON, dentro de la idea de “Physical AI”: inteligencia artificial aplicada a máquinas capaces de actuar en el mundo físico.
+<!--
+Sí. BMW ya realizó pilotos con robots humanoides en ambientes de producción automotriz, incluyendo un proyecto en Spartanburg con Figure AI y otro en Leipzig con el robot AEON, dentro de la idea de “Physical AI”: IA aplicada a máquinas capaces de actuar en el mundo físico. ([bmwgroup.com](https://www.bmwgroup.com/en/news/general/2026/humanoid-robot-in-leipzig.html))
+-->
 
 ¿Crees que autos sin conductor ya circulan en servicios comerciales de transporte?
 
-Sí. Waymo opera servicios de robotaxi en varias ciudades, con vehículos autónomos que transportan pasajeros sin un conductor humano al volante. Al mismo tiempo, incidentes recientes, como interrupciones de servicio causadas por inundaciones, muestran que la tecnología ya es real, pero todavía enfrenta límites prácticos, climáticos, urbanos y regulatorios.
+<!--
+Sí. Waymo opera servicios de robotaxi en varias ciudades, con vehículos autónomos transportando pasajeros sin un conductor humano al volante. Al mismo tiempo, incidentes recientes, como interrupciones de servicio por inundaciones en Texas, muestran que la tecnología ya es real, pero todavía enfrenta límites prácticos, climáticos, urbanos y regulatorios. ([waymo.com](https://waymo.com/))
+-->
 
-¿Crees que una persona ya logró controlar una computadora usando solo el pensamiento?
+¿Crees que una persona ya logró controlar una computadora solo con el pensamiento?
 
-Sí. Las interfaces cerebro-computadora ya son una realidad experimental. Neuralink, por ejemplo, desarrolla implantes cerebrales con el objetivo inicial de restaurar autonomía para personas con necesidades médicas no atendidas; en 2024, se informó que el primer paciente humano de la empresa podía controlar el cursor de una computadora por medio del pensamiento.
+<!--
+Sí. Las interfaces cerebro-computadora ya son una realidad experimental. Neuralink, por ejemplo, desarrolla implantes cerebrales con el objetivo inicial de restaurar autonomía para personas con necesidades médicas no atendidas; en 2024, se informó que el primer paciente humano de la empresa podía controlar un cursor de computadora por medio del pensamiento. ([neuralink.com](https://neuralink.com/))
+-->
 
 ¿Crees que el “teletransporte” ya existe?
 
-Depende de lo que entendamos por teletransporte. Teletransportar personas sigue siendo ciencia ficción. Pero el **teletransporte cuántico de información** ya fue demostrado en redes reales: en 2026, Deutsche Telekom y Qunnect anunciaron una prueba de teletransporte cuántico sobre una red comercial de fibra óptica en Berlín.
+<!--
+Depende de lo que llamemos teletransporte. Teletransportar personas sigue siendo ciencia ficción. Pero el **teletransporte cuántico de información** ya fue demostrado en redes reales: en 2026, Deutsche Telekom y Qunnect anunciaron una prueba de teletransporte cuántico en una red comercial de fibra óptica en Berlín. ([telekom.com](https://www.telekom.com/en/media/media-information/archive/teleportation-via-fiber-optics-in-berlin-1102518))
+-->
 
 ¿Crees que sistemas de IA ya pueden escribir, programar, crear imágenes, generar videos, componer música, resumir libros, analizar datos y simular conversaciones complejas?
 
-Sí. Y quizá ese sea el punto más importante: muchas tecnologías que antes parecían lejanas ya están entrando en escuelas, empresas, hospitales, oficinas, fábricas, laboratorios y plataformas digitales. Algunas todavía son experimentales. Otras ya están siendo comercializadas. Otras funcionan con limitaciones importantes. Pero todas apuntan en la misma dirección: el futuro no está llegando de una sola vez. Está siendo instalado por partes, producto por producto, laboratorio por laboratorio, ciudad por ciudad.
+<!--
+Sí. Y quizá ese sea el punto más importante: muchas tecnologías que antes parecían lejanas ya están entrando en escuelas, empresas, hospitales, oficinas, fábricas, laboratorios y plataformas digitales. Algunas todavía son experimentales. Otras ya se están comercializando. Otras funcionan con limitaciones importantes. Pero todas apuntan en la misma dirección: el futuro no está llegando de una sola vez. Se está instalando por partes, producto por producto, laboratorio por laboratorio, ciudad por ciudad.
+-->
+
+La respuesta a todas estas preguntas es "¡SÍ!".
 
 Por eso, la pregunta no es solamente si esas tecnologías son posibles.
 
@@ -35,9 +47,9 @@ La pregunta es:
 
 **¿Quién estará preparado para entenderlas, usarlas y cuestionarlas?**
 
-La Inteligencia Artificial dejó de ser solo un tema de laboratorio, ciencia ficción o grandes empresas de tecnología. En 2026, ya está presente en herramientas de estudio, trabajo, investigación, programación, diseño, música, automatización, atención al cliente, análisis de datos, comunicación y creación de contenido.
+La Inteligencia Artificial dejó de ser solo un tema de laboratorio, ciencia ficción o grandes empresas de tecnología. En 2026, ya está presente en herramientas de estudio, trabajo, investigación, programación, diseño, música, automatización, atención, análisis de datos, comunicación y creación de contenido.
 
-Para estudiantes y profesionales en formación, esto cambia una pregunta importante. Ya no se trata solo de:
+Para estudiantes y profesionales en formación, esto cambia una pregunta importante. Ya no es solo:
 
 **“¿La IA va a reemplazar empleos?”**
 
@@ -47,11 +59,11 @@ La pregunta más completa quizá sea:
 
 Este texto es una reflexión sobre el presente, pero también una provocación sobre el futuro. Si seguimos avanzando al ritmo actual, ¿qué tipo de sociedad podríamos encontrar en **2044**?
 
+Este artículo eligió el año 2044 como referencia por no estar tan cerca del año actual, pero tampoco tan distante como para ofrecer un panorama demasiado estilo ciencia ficción.
+
 ¿Una sociedad donde la IA amplía oportunidades, democratiza el conocimiento y libera a los humanos de tareas repetitivas? ¿O una sociedad dividida entre una élite tecnológica integrada a sistemas inteligentes y una masa de trabajadores desplazados, vigilados y tratados como descartables?
 
-Para pensar en eso, vamos a recorrer una breve historia de la Inteligencia Artificial, discutir sus impactos socioeconómicos, ambientales y políticos, reflexionar sobre la combinación entre IA y computación cuántica, analizar posibles escenarios futuros y usar una analogía con *Battle Angel Alita*, de Yukito Kishiro.
-
-En *Battle Angel Alita*, la humanidad está dividida entre espacios simbólicos de poder y exclusión: la Ciudad de la Chatarra, Zalem y Jerú. Esta estructura ficticia nos ayuda a pensar en un futuro donde tecnología, desigualdad, conciencia, cuerpo, trabajo y control social se mezclan.
+Para pensar sobre eso, vamos a recorrer una breve historia de la Inteligencia Artificial, discutir sus impactos socioeconómicos, ambientales y políticos, reflexionar sobre la combinación entre IA y computación cuántica, analizar posibles escenarios de futuro y, solo por diversión, usar una analogía con *Battle Angel Alita*, de Yukito Kishiro.
 
 La idea no es tratar a la IA como magia, ni como una amenaza inevitable. La postura más productiva es una combinación de curiosidad, preparación, pensamiento crítico y responsabilidad.
 
@@ -107,6 +119,8 @@ En la interfaz, una herramienta de IA puede parecer simple: el usuario escribe u
 
 Ese costo crea una contradicción importante. Para el usuario final, algunas herramientas parecen baratas, gratuitas o accesibles. Pero construir y mantener los modelos más avanzados requiere miles de millones de dólares en inversión.
 
+McKinsey estima que los gastos globales con centros de datos pueden llegar a cerca de **US$ 7 billones hasta 2030**, impulsados por la carrera para escalar IA e infraestructura computacional. ([mckinsey.com](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-7-trillion-dollar-data-center-build-out-how-industrials-can-capture-their-share))
+
 Esto significa que pocas empresas y pocos países pueden competir en la frontera de la IA.
 
 Esa concentración de infraestructura puede generar concentración de poder. Las empresas que controlan modelos, chips, nube, datos y plataformas pueden influir no solo en el mercado tecnológico, sino también en educación, comunicación, trabajo, investigación, defensa, salud y servicios públicos.
@@ -125,7 +139,7 @@ La idea de que la tecnología digital es “liviana” o “inmaterial” puede 
 
 Individualmente, una sola pregunta hecha a una herramienta de IA puede parecer insignificante. Pero cuando miles de millones de personas y empresas usan estos sistemas diariamente, el impacto se acumula.
 
-El consumo energético es una de las principales preocupaciones. Modelos más grandes y complejos exigen más procesamiento, especialmente durante el entrenamiento y también durante el uso a gran escala. Además, los centros de datos necesitan sistemas de refrigeración para mantener los servidores funcionando a temperaturas seguras.
+El consumo energético es una de las principales preocupaciones. La Agencia Internacional de Energía proyecta que el consumo global de electricidad de los centros de datos puede prácticamente duplicarse, pasando de cerca de **485 TWh en 2025 a 950 TWh en 2030**, hasta llegar aproximadamente al **3% de la demanda eléctrica global**; los centros de datos enfocados en IA deben crecer todavía más rápido en ese período. ([iea.org](https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary))
 
 El agua también es un punto importante. Algunos centros de datos usan agua directamente para refrigeración. Además, existe consumo indirecto de agua en la generación de energía, dependiendo de la matriz energética utilizada.
 
@@ -184,6 +198,10 @@ En la mayoría de los casos, la IA reemplaza primero tareas, no profesiones ente
 
 Una profesión está compuesta por muchas tareas. Algunas son repetitivas, previsibles y fáciles de automatizar. Otras exigen juicio, experiencia, empatía, presencia física, negociación, creatividad, responsabilidad legal o comprensión profunda del contexto.
 
+El FMI estima que cerca del **40% de los empleos en el mundo** están expuestos a la IA; en economías avanzadas, ese número puede llegar al **60%**, con parte de los empleos siendo complementada por la IA y otra parte enfrentando reducción de demanda, salarios o contratación. ([imf.org](https://www.imf.org/en/blogs/articles/2024/01/14/ai-will-transform-the-global-economy-lets-make-sure-it-benefits-humanity))
+
+Goldman Sachs también estimó que la IA generativa puede exponer el equivalente a **300 millones de empleos de tiempo completo** a la automatización. Eso no significa que 300 millones de personas necesariamente perderán sus empleos, sino que muchas tareas realizadas por humanos pueden ser parcialmente automatizadas. ([goldmansachs.com](https://www.goldmansachs.com/insights/articles/how-will-ai-affect-the-us-labor-market))
+
 Por ejemplo, un abogado puede no ser reemplazado completamente, pero tareas como resumir contratos, investigar jurisprudencia o generar borradores pueden ser automatizadas. Un programador puede seguir siendo necesario, pero partes de la escritura de código, pruebas y documentación pueden hacerse con IA. Un profesor puede usar IA para preparar materiales, pero sigue siendo esencial para orientar, motivar, evaluar y acompañar estudiantes.
 
 El mayor riesgo está en trabajos compuestos por tareas repetitivas, previsibles, digitales y fáciles de validar.
@@ -226,33 +244,14 @@ Durante mucho tiempo, la automatización parecía más asociada a máquinas indu
 
 La sustitución puede ocurrir de varias formas. En algunos casos, una profesión entera puede perder demanda. En otros, la profesión sigue existiendo, pero con menos personas, porque cada profesional puede producir mucho más con apoyo de IA. También puede cambiar el perfil del cargo: las tareas simples desaparecen, mientras que supervisión, validación, estrategia, relaciones humanas y responsabilidad se vuelven más importantes.
 
-Un profesional de atención al cliente puede tener parte de su trabajo sustituido por chatbots y agentes de voz.
+Podemos citar algunos ejemplos de impacto en diferentes profesiones:
 
-Un traductor puede perder trabajos simples de traducción directa, pero seguir siendo necesario para revisión especializada, localización cultural y textos sensibles.
-
-Un programador principiante puede tener parte de su trabajo automatizado por herramientas de generación de código, mientras que programadores experimentados pasan a enfocarse más en arquitectura, revisión, seguridad e integración.
-
-Un diseñador puede usar IA para generar borradores visuales rápidamente, pero todavía necesita tomar decisiones estéticas, estratégicas y de identidad de marca.
-
-Un analista financiero puede tener informes automatizados, pero todavía necesita interpretar riesgos, contexto económico y decisiones estratégicas.
-
-Un profesor puede usar IA para crear materiales, ejercicios y planes de clase, pero sigue siendo esencial en la mediación humana, el acompañamiento emocional y la adaptación pedagógica.
-
-Un abogado puede automatizar investigaciones, resúmenes y borradores, pero sigue siendo responsable por la interpretación, la estrategia jurídica, la ética y la representación del cliente.
-
-Un médico puede usar IA como apoyo diagnóstico, pero las decisiones clínicas, la comunicación con pacientes y la responsabilidad profesional todavía exigen presencia humana.
-
-Un periodista puede usar IA para borradores e investigación, pero la investigación periodística, la verificación, la responsabilidad editorial y la lectura crítica de la realidad siguen siendo diferenciales humanos.
-
-Un profesional administrativo puede automatizar hojas de cálculo, informes, correos, agendas y flujos internos, reduciendo la necesidad de tareas operativas repetitivas.
-
-Un investigador puede usar IA para revisar literatura, organizar referencias, generar hipótesis y apoyar el análisis de datos, pero todavía necesita dominar el método científico, la interpretación y la validación.
-
-Un profesional de marketing puede automatizar anuncios, segmentaciones y variaciones de texto, pero todavía necesita entender comportamiento humano, marca, cultura y estrategia.
-
-Un contador puede automatizar registros, informes y clasificaciones, pero seguirá siendo necesario para interpretación fiscal, cumplimiento normativo, auditoría y toma de decisiones.
-
-Un profesional de recursos humanos puede usar IA para selección y análisis, pero necesita cuidado con sesgos, justicia, contexto humano y responsabilidad ética.
+* un/a analista financiero/a puede tener informes automatizados, pero todavía necesita interpretar riesgos, contexto económico y decisiones estratégicas.
+* un/a profesor/a puede usar IA para crear materiales, ejercicios y planes de clase, pero sigue siendo esencial en la mediación humana, el acompañamiento emocional y la adaptación pedagógica.
+* un/a médico/a puede usar IA como apoyo diagnóstico, pero las decisiones clínicas, la comunicación con pacientes y la responsabilidad profesional todavía exigen presencia humana.
+* un/a profesional administrativo/a puede automatizar hojas de cálculo, informes, correos, agendas y flujos internos, reduciendo la necesidad de tareas operativas repetitivas.
+* un/a investigador/a puede usar IA para revisar literatura, organizar referencias, generar hipótesis y apoyar el análisis de datos, pero todavía necesita dominar el método científico, la interpretación y la validación.
+* un/a profesional de marketing puede automatizar anuncios, segmentaciones y variaciones de texto, pero todavía necesita entender comportamiento humano, marca, cultura y estrategia.
 
 Es decir, el impacto de la IA no es uniforme. No sustituye a todas las personas de la misma forma. Primero sustituye **tareas**, después puede reducir la necesidad de ciertas **funciones**, y solo en casos más extremos puede hacer que algunas **profesiones enteras** pierdan relevancia.
 
@@ -368,29 +367,29 @@ La conclusión más equilibrada es:
 
 La ciencia ficción frecuentemente anticipa dilemas antes de que se conviertan en problemas reales. Nos permite mirar el presente por medio de futuros extremos, exagerados y simbólicos.
 
-En *Battle Angel Alita*, de Yukito Kishiro, encontramos un mundo marcado por desigualdad extrema, cuerpos modificados, ciborgs, biotecnología avanzada, manipulación de la identidad, control social y tensión entre humanidad y tecnología. La obra original es un manga cyberpunk publicado en los años 1990, con secuelas como *Battle Angel Alita: Last Order* y *Battle Angel Alita: Mars Chronicle*.
+En *Battle Angel Alita*, de Yukito Kishiro, encontramos un mundo marcado por desigualdad extrema, cuerpos modificados, ciborgs, biotecnología avanzada, manipulación de la identidad, control social y tensión entre humanidad y tecnología. La obra original es un manga cyberpunk publicado en los años 1990, con secuelas como *Battle Angel Alita: Last Order* y *Battle Angel Alita: Mars Chronicle*. ([wikipedia.org](https://en.wikipedia.org/wiki/Battle_Angel_Alita))
 
-En la obra, la jerarquía entre la Ciudad de la Chatarra, Zalem y Jerú no es solo geográfica. Representa diferentes capas de acceso, poder y control tecnológico. En traducciones antiguas, Zalem también aparece como Tiphares, y Jerú aparece como Ketheres.
+En la obra, la jerarquía entre la Ciudad de la Chatarra, Zalem y Jerú no es solo geográfica. Representa diferentes capas de acceso, poder y control tecnológico. En traducciones antiguas, Zalem también aparece como Tiphares, y Jerú aparece como Ketheres. ([wikipedia.org](https://en.wikipedia.org/wiki/Battle_Angel_Alita))
 
 En la **Ciudad de la Chatarra**, las personas viven debajo de Zalem y sobreviven de los restos de una sociedad superior. Es un espacio de exclusión, violencia, precariedad y adaptación extrema. La ciudad funciona como una metáfora brutal para un mundo donde parte de la humanidad vive de los residuos del progreso de otros.
 
-En **Zalem**, la población vive en una ciudad elevada, aparentemente más avanzada, limpia y protegida. Pero esa superioridad esconde un secreto perturbador: los adultos tienen sus cerebros orgánicos removidos y reemplazados por chips cerebrales, preservando memorias y personalidad. En la mitología de la obra, los llamados **brain bio-chips** cumplen funciones equivalentes a las del cerebro humano y retienen personalidad y recuerdos.
+En **Zalem**, la población vive en una ciudad elevada, aparentemente más avanzada, limpia y protegida. Pero esa superioridad esconde un secreto perturbador: los adultos tienen sus cerebros orgánicos removidos y reemplazados por chips cerebrales, preservando memorias y personalidad. En la mitología de la obra, los llamados **brain bio-chips** cumplen funciones equivalentes a las del cerebro humano y retienen personalidad y recuerdos. ([battleangel.fandom.com](https://battleangel.fandom.com/wiki/Brain_bio-chip))
 
 Este detalle es esencial para nuestra reflexión sobre IA. En Zalem, el problema no es solo que la tecnología avanzó. El problema es que avanzó al punto de alterar la propia definición de conciencia, identidad y libertad sin que las personas comprendan completamente la estructura en la que viven.
 
 En **Jerú**, la discusión se vuelve todavía más profunda. La ciudad espacial está asociada a sistemas de control, poder y computación avanzada. Entre los conceptos más importantes están **Melchizedek**, **Unanimous** y la **Matuzalenización**.
 
-**Melchizedek** puede entenderse como una inteligencia computacional central, vinculada a la gobernanza, la infraestructura y el control de una sociedad altamente tecnológica. En la obra, Melchizedek es descrito como una supercomputadora cuántica vinculada a Ketheres/Jerú y tiene un papel importante en *Last Order*.
+**Melchizedek** puede entenderse como una inteligencia computacional central, vinculada a la gobernanza, la infraestructura y el control de una sociedad altamente tecnológica. En la obra, Melchizedek es descrito como una supercomputadora cuántica vinculada a Ketheres/Jerú y tiene un papel importante en *Last Order*. ([battleangel.fandom.com](https://battleangel.fandom.com/wiki/Melchizedek))
 
 En una lectura simbólica, Melchizedek se aproxima a una pregunta que también empieza a aparecer en nuestro mundo:
 
 **¿Qué ocurre cuando los sistemas computacionales empiezan a influir en decisiones fundamentales sobre trabajo, educación, seguridad, acceso a oportunidades, circulación de información y organización social?**
 
-**Unanimous** amplía aún más esta cuestión. En la obra, Unanimous es descrito como un sistema de orden público usado por los residentes de Ketheres/Jerú, oficialmente asociado al acceso a Melchizedek para obtener información.
+**Unanimous** amplía aún más esta cuestión. En la obra, Unanimous es descrito como un sistema de orden público usado por los residentes de Ketheres/Jerú, oficialmente asociado al acceso a Melchizedek para obtener información. ([battleangel.fandom.com](https://battleangel.fandom.com/wiki/Unanimous))
 
 Como metáfora contemporánea, Unanimous puede representar una sociedad hiperconectada, donde datos, algoritmos, redes sociales, sistemas de reputación, plataformas digitales e IA empiezan a influir en lo que las personas piensan, desean, compran, estudian, defienden y creen.
 
-La **Matuzalenización** trae una dimensión todavía más pesada: la búsqueda de extensión radical de la vida, preservación de la conciencia, manipulación biológica y superación de los límites humanos. En la obra, la Matuzalenización es descrita como un proceso que detiene el envejecimiento por medio de nanomáquinas personales instaladas en el cuerpo.
+La **Matuzalenización** trae una dimensión todavía más pesada: la búsqueda de extensión radical de la vida, preservación de la conciencia, manipulación biológica y superación de los límites humanos. En la obra, la Methuselyzation/Matuzalenización es descrita como un proceso que detiene el envejecimiento por medio de nanomáquinas personales instaladas en el cuerpo. ([battleangel.fandom.com](https://battleangel.fandom.com/wiki/Methuselyzation))
 
 Esta idea dialoga con debates actuales sobre biotecnología, interfaces cerebro-computadora, carga de la mente, sustitución de partes del cuerpo, medicina personalizada, IA médica y transhumanismo. Todavía estamos lejos de muchos de estos escenarios, pero la dirección filosófica ya existe: ¿hasta qué punto queremos usar tecnología para reparar, ampliar, reemplazar o rediseñar al ser humano?
 
@@ -708,101 +707,7 @@ La IA debe usarse como compañera de razonamiento, no como sustituto de la conci
 
 ---
 
-# 8. Diez herramientas de IA que los estudiantes pueden explorar
-
-La siguiente lista no es una recomendación definitiva, sino un mapa inicial de herramientas útiles en distintas áreas. Lo ideal es experimentar, comparar y elegir según el objetivo.
-
-También es importante recordar que las herramientas cambian rápido. Antes de publicar o presentar este contenido, vale la pena revisar nombres, precios, planes y funcionalidades.
-
----
-
-## 1. ChatGPT — estudio, escritura, programación y análisis
-
-Puede usarse para explicar conceptos, revisar textos, generar ideas, analizar datos, crear códigos, estudiar idiomas, montar planes de estudio y simular entrevistas.
-
-Es especialmente útil cuando se usa de forma iterativa: preguntando, revisando, pidiendo alternativas, probando ejemplos y verificando resultados.
-
----
-
-## 2. NotebookLM — estudio basado en fuentes
-
-Útil para estudiar PDFs, artículos, apuntes y materiales de clase.
-
-Su diferencial es trabajar de forma más conectada a las fuentes proporcionadas por el usuario. Puede ayudar a estudiantes a resumir materiales, generar preguntas de repaso, organizar ideas y transformar documentos largos en explicaciones más accesibles.
-
----
-
-## 3. Perplexity — investigación asistida por IA
-
-Buena opción para buscar respuestas con referencias, explorar temas actuales y encontrar fuentes rápidamente.
-
-Debe usarse con revisión crítica, especialmente en temas académicos, jurídicos, médicos, científicos o profesionales.
-
----
-
-## 4. Claude — lectura, escritura y análisis de documentos largos
-
-Puede ser útil para resumir textos extensos, revisar argumentos, estructurar ensayos y trabajar con documentos complejos.
-
-Es una herramienta interesante para quienes necesitan lidiar con textos largos, planificación, escritura analítica y revisión de contenido.
-
----
-
-## 5. Gamma — creación de presentaciones
-
-Ayuda a transformar ideas en presentaciones, documentos visuales y páginas simples.
-
-Puede ser útil para estudiantes que necesitan presentar trabajos, proyectos, informes o ideas de forma visualmente organizada.
-
-Aun así, el estudiante debe revisar la estructura, los argumentos y los datos. Una presentación bonita no garantiza una presentación correcta.
-
----
-
-## 6. Canva AI — diseño y comunicación visual
-
-Útil para publicaciones, presentaciones, currículos, materiales de divulgación, infografías y piezas visuales simples.
-
-Puede ayudar a estudiantes a mejorar la comunicación visual de proyectos, especialmente cuando no tienen experiencia avanzada en diseño.
-
----
-
-## 7. Cursor — programación con IA
-
-Editor de código con recursos de asistencia por IA.
-
-Puede ayudar a planificar, escribir, revisar y explicar código dentro de un proyecto. Es útil para quien está aprendiendo programación, pero debe usarse con cuidado: generar código sin entenderlo puede crear dependencia y errores difíciles de corregir.
-
----
-
-## 8. GitHub Copilot — apoyo a la programación
-
-Ayuda con autocompletado de código, generación de funciones, explicación de fragmentos y aceleración de tareas comunes de desarrollo.
-
-Es especialmente útil para quienes ya están aprendiendo programación y quieren practicar con revisión.
-
-Lo ideal es usarlo como tutor y acelerador, no como sustituto del aprendizaje de lógica, estructuras de datos, pruebas y buenas prácticas.
-
----
-
-## 9. Zapier o Make — automatización de tareas
-
-Permiten crear flujos entre aplicaciones, como enviar correos automáticos, actualizar hojas de cálculo, organizar formularios, crear notificaciones e integrar herramientas sin necesidad de programar todo desde cero.
-
-Son buenas herramientas para entender automatización de procesos, algo cada vez más importante en el mercado laboral.
-
----
-
-## 10. Suno, Runway o ElevenLabs — creación multimedia
-
-Herramientas de este tipo permiten explorar música, video, voz sintética y creación audiovisual.
-
-Son útiles para comunicación, marketing, educación, prototipado y proyectos creativos.
-
-También levantan cuestiones éticas importantes, especialmente sobre autoría, uso de voz, uso de imagen, derechos de autor y creación de contenido sintético.
-
----
-
-# 9. El estudiante del futuro no será solo usuario de IA
+# 8. El estudiante del futuro no será solo usuario de IA
 
 El estudiante del futuro necesita ser más que alguien que “usa herramientas”.
 
@@ -830,7 +735,7 @@ Al final, quizá el futuro no pertenezca simplemente a quienes usan IA, sino a q
 
 ---
 
-# 10. Una predicción para 2044
+# 9. Cómo será el futuro en 2044
 
 En 2044, quizá la pregunta ya no sea si usamos IA. Todos usarán IA de alguna forma.
 
@@ -859,20 +764,3 @@ Quizá el mayor diferencial sea mantener la capacidad de pensar críticamente, a
 El futuro todavía no está escrito.
 
 Pero ya está siendo entrenado.
-
----
-
-## Fuentes consultadas
-- [bmwgroup.com](https://www.bmwgroup.com/en/news/general/2026/humanoid-robot-in-leipzig.html)
-- [waymo.com](https://waymo.com/)
-- [neuralink.com](https://neuralink.com/)
-- [telekom.com](https://www.telekom.com/en/media/media-information/archive/teleportation-via-fiber-optics-in-berlin-1102518)
-- [mckinsey.com](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-7-trillion-dollar-data-center-build-out-how-industrials-can-capture-their-share)
-- [iea.org](https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary)
-- [imf.org](https://www.imf.org/en/blogs/articles/2024/01/14/ai-will-transform-the-global-economy-lets-make-sure-it-benefits-humanity)
-- [goldmansachs.com](https://www.goldmansachs.com/insights/articles/how-will-ai-affect-the-us-labor-market)
-- [wikipedia.org](https://en.wikipedia.org/wiki/Battle_Angel_Alita)
-- [battleangel.fandom.com](https://battleangel.fandom.com/wiki/Brain_bio-chip)
-- [battleangel.fandom.com](https://battleangel.fandom.com/wiki/Melchizedek)
-- [battleangel.fandom.com](https://battleangel.fandom.com/wiki/Unanimous)
-- [battleangel.fandom.com](https://battleangel.fandom.com/wiki/Methuselyzation)

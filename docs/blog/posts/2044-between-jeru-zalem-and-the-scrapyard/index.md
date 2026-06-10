@@ -11,31 +11,43 @@ layout: post
 
 Do you believe humanoid robots can already work on real production lines?
 
-Yes. BMW has already run pilots with humanoid robots in automotive production environments, including a project in Spartanburg with Figure AI and another in Leipzig with the AEON robot, as part of the idea of “Physical AI”: AI applied to machines capable of acting in the physical world. ([bmwgroup.com](https://www.bmwgroup.com/en/news/general/2026/humanoid-robot-in-leipzig.html))
+<!--
+Yes. BMW has already run pilots with humanoid robots in automotive production environments, including a project in Spartanburg with Figure AI and another in Leipzig with the AEON robot, within the idea of “Physical AI”: AI applied to machines capable of acting in the physical world. ([bmwgroup.com](https://www.bmwgroup.com/en/news/general/2026/humanoid-robot-in-leipzig.html))
+-->
 
 Do you believe driverless cars are already operating in commercial transportation services?
 
-Yes. Waymo operates robotaxi services in several cities, with autonomous vehicles transporting passengers without a human driver behind the wheel. At the same time, recent incidents, such as service disruptions caused by flooding in Texas, show that the technology is real, but still faces practical, climate-related, urban, and regulatory limits. ([waymo.com](https://waymo.com/))
+<!--
+Yes. Waymo operates robotaxi services in several cities, with autonomous vehicles transporting passengers without a human driver behind the wheel. At the same time, recent incidents, such as service disruptions caused by flooding in Texas, show that the technology is already real, but still faces practical, climatic, urban, and regulatory limits. ([waymo.com](https://waymo.com/))
+-->
 
-Do you believe a person has already controlled a computer using only their thoughts?
+Do you believe a person has already managed to control a computer using only thought?
 
-Yes. Brain-computer interfaces are already an experimental reality. Neuralink, for example, is developing brain implants with the initial goal of restoring autonomy for people with unmet medical needs; in 2024, it was reported that the company’s first human patient could control a computer cursor through thought. ([neuralink.com](https://neuralink.com/))
+<!--
+Yes. Brain-computer interfaces are already an experimental reality. Neuralink, for example, develops brain implants with the initial goal of restoring autonomy for people with unmet medical needs; in 2024, it was reported that the company’s first human patient could control a computer cursor through thought. ([neuralink.com](https://neuralink.com/))
+-->
 
 Do you believe “teleportation” already exists?
 
-It depends on what we mean by teleportation. Teleporting people remains science fiction. But **quantum teleportation of information** has already been demonstrated in real networks: in 2026, Deutsche Telekom and Qunnect announced a quantum teleportation test over a commercial fiber-optic network in Berlin. ([telekom.com](https://www.telekom.com/en/media/media-information/archive/teleportation-via-fiber-optics-in-berlin-1102518))
+<!--
+It depends on what we call teleportation. Teleporting people remains science fiction. But **quantum teleportation of information** has already been demonstrated in real networks: in 2026, Deutsche Telekom and Qunnect announced a quantum teleportation test on a commercial fiber-optic network in Berlin. ([telekom.com](https://www.telekom.com/en/media/media-information/archive/teleportation-via-fiber-optics-in-berlin-1102518))
+-->
 
 Do you believe AI systems can already write, program, create images, generate videos, compose music, summarize books, analyze data, and simulate complex conversations?
 
-Yes. And perhaps this is the most important point: many technologies that once seemed distant are already entering schools, companies, hospitals, offices, factories, laboratories, and digital platforms. Some are still experimental. Others are already being commercialized. Others work with important limitations. But all of them point in the same direction: the future is not arriving all at once. It is being installed in pieces, product by product, laboratory by laboratory, city by city.
+<!--
+Yes. And perhaps this is the most important point: many technologies that once seemed distant are already entering schools, companies, hospitals, offices, factories, laboratories, and digital platforms. Some are still experimental. Others are already being commercialized. Others work with important limitations. But all of them point in the same direction: the future is not arriving all at once. It is being installed in parts, product by product, laboratory by laboratory, city by city.
+-->
 
-So the question is not only whether these technologies are possible.
+The answer to all these questions is "YES!".
+
+That is why the question is not only whether these technologies are possible.
 
 The question is:
 
 **Who will be prepared to understand them, use them, and question them?**
 
-Artificial Intelligence is no longer just a topic for laboratories, science fiction, or large technology companies. In 2026, it is already present in tools for study, work, research, programming, design, music, automation, customer support, data analysis, communication, and content creation.
+Artificial Intelligence is no longer just a topic for laboratories, science fiction, or large technology companies. In 2026, it is already present in tools for study, work, research, programming, design, music, automation, customer service, data analysis, communication, and content creation.
 
 For students and professionals in training, this changes an important question. It is no longer just:
 
@@ -47,11 +59,11 @@ The more complete question may be:
 
 This text is a reflection on the present, but also a provocation about the future. If we continue advancing at the current pace, what kind of society might we find in **2044**?
 
+This article chose the year 2044 as a reference because it is not so close to the current year, but not so distant as to offer an overly science-fiction-style panorama.
+
 A society where AI expands opportunities, democratizes knowledge, and frees humans from repetitive tasks? Or a society divided between a technological elite integrated into intelligent systems and a mass of displaced, monitored workers treated as disposable?
 
-To think about this, we will go through a brief history of Artificial Intelligence, discuss its socioeconomic, environmental, and political impacts, reflect on the combination of AI and quantum computing, analyze possible future scenarios, and use an analogy with *Battle Angel Alita*, by Yukito Kishiro.
-
-In *Battle Angel Alita*, humanity is divided between symbolic spaces of power and exclusion: the Scrapyard, Zalem, and Jeru. This fictional structure helps us think about a future where technology, inequality, consciousness, the body, work, and social control become intertwined.
+To think about this, we will go through a brief history of Artificial Intelligence, discuss its socioeconomic, environmental, and political impacts, reflect on the combination of AI and quantum computing, analyze possible future scenarios and, just for fun, use an analogy with *Battle Angel Alita*, by Yukito Kishiro.
 
 The idea is not to treat AI as magic, nor as an inevitable threat. The most productive attitude is a combination of curiosity, preparation, critical thinking, and responsibility.
 
@@ -232,33 +244,14 @@ For a long time, automation seemed more associated with industrial machines, ass
 
 Replacement can happen in several ways. In some cases, an entire profession may lose demand. In others, the profession continues to exist, but with fewer people, because each professional can produce much more with AI support. The profile of the role may also change: simple tasks disappear, while supervision, validation, strategy, human relationships, and responsibility become more important.
 
-A customer support professional may have part of their work replaced by chatbots and voice agents.
+We can cite some examples of impact in different professions:
 
-A translator may lose simple direct-translation jobs, but remain necessary for specialized review, cultural localization, and sensitive texts.
-
-An entry-level programmer may have part of their work automated by code generation tools, while experienced programmers focus more on architecture, review, security, and integration.
-
-A designer may use AI to quickly generate visual drafts, but still needs to make aesthetic, strategic, and brand identity decisions.
-
-A financial analyst may have reports automated, but still needs to interpret risks, economic context, and strategic decisions.
-
-A teacher may use AI to create materials, exercises, and lesson plans, but remains essential in human mediation, emotional support, and pedagogical adaptation.
-
-A lawyer may automate research, summaries, and drafts, but remains responsible for interpretation, legal strategy, ethics, and client representation.
-
-A doctor may use AI as diagnostic support, but clinical decisions, communication with patients, and professional responsibility still require human presence.
-
-A journalist may use AI for drafts and research, but investigation, verification, editorial responsibility, and critical reading of reality remain human differentiators.
-
-An administrative professional may automate spreadsheets, reports, emails, scheduling, and internal workflows, reducing the need for repetitive operational tasks.
-
-A researcher may use AI to review literature, organize references, generate hypotheses, and support data analysis, but still needs to master scientific method, interpretation, and validation.
-
-A marketing professional may automate ads, segmentation, and text variations, but still needs to understand human behavior, brand, culture, and strategy.
-
-An accountant may automate entries, reports, and classifications, but will still be needed for tax interpretation, compliance, auditing, and decision-making.
-
-A human resources professional may use AI for screening and analysis, but must be careful with bias, fairness, human context, and ethical responsibility.
+* a financial analyst may have reports automated, but still needs to interpret risks, economic context, and strategic decisions.
+* a teacher may use AI to create materials, exercises, and lesson plans, but remains essential in human mediation, emotional support, and pedagogical adaptation.
+* a doctor may use AI as diagnostic support, but clinical decisions, communication with patients, and professional responsibility still require human presence.
+* an administrative professional may automate spreadsheets, reports, emails, scheduling, and internal workflows, reducing the need for repetitive operational tasks.
+* a researcher may use AI to review literature, organize references, generate hypotheses, and support data analysis, but still needs to master scientific method, interpretation, and validation.
+* a marketing professional may automate ads, segmentation, and text variations, but still needs to understand human behavior, brand, culture, and strategy.
 
 In other words, AI’s impact is not uniform. It does not replace all people in the same way. It replaces **tasks** first, then may reduce the need for certain **roles**, and only in more extreme cases may make some **entire professions** less relevant.
 
@@ -374,9 +367,9 @@ The most balanced conclusion is:
 
 Science fiction often anticipates dilemmas before they become real problems. It allows us to look at the present through extreme, exaggerated, and symbolic futures.
 
-In *Battle Angel Alita*, by Yukito Kishiro, we find a world marked by extreme inequality, modified bodies, cyborgs, advanced biotechnology, manipulation of identity, social control, and tension between humanity and technology. The original work is a cyberpunk manga published in the 1990s, with sequels such as *Battle Angel Alita: Last Order* and *Battle Angel Alita: Mars Chronicle*. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_Angel_Alita))
+In *Battle Angel Alita*, by Yukito Kishiro, we find a world marked by extreme inequality, modified bodies, cyborgs, advanced biotechnology, manipulation of identity, social control, and tension between humanity and technology. The original work is a cyberpunk manga published in the 1990s, with sequels such as *Battle Angel Alita: Last Order* and *Battle Angel Alita: Mars Chronicle*. ([wikipedia.org](https://en.wikipedia.org/wiki/Battle_Angel_Alita))
 
-In the work, the hierarchy between the Scrapyard, Zalem, and Jeru is not only geographical. It represents different layers of access, power, and technological control. In older translations, Zalem also appears as Tiphares, and Jeru appears as Ketheres. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Battle_Angel_Alita))
+In the work, the hierarchy between the Scrapyard, Zalem, and Jeru is not only geographical. It represents different layers of access, power, and technological control. In older translations, Zalem also appears as Tiphares, and Jeru appears as Ketheres. ([wikipedia.org](https://en.wikipedia.org/wiki/Battle_Angel_Alita))
 
 In the **Scrapyard**, people live below Zalem and survive from the leftovers of a superior society. It is a space of exclusion, violence, precarity, and extreme adaptation. The city functions as a brutal metaphor for a world where part of humanity lives off the waste of other people’s progress.
 
@@ -714,101 +707,7 @@ AI should be used as a reasoning partner, not as a substitute for consciousness.
 
 ---
 
-# 8. Ten AI tools students can explore
-
-The list below is not a definitive recommendation, but an initial map of useful tools in different areas. Ideally, students should experiment, compare, and choose according to their goals.
-
-It is also important to remember that tools change quickly. Before publishing or presenting this content, it is worth reviewing names, prices, plans, and features.
-
----
-
-## 1. ChatGPT — study, writing, programming, and analysis
-
-It can be used to explain concepts, revise texts, generate ideas, analyze data, create code, study languages, build study plans, and simulate interviews.
-
-It is especially useful when used iteratively: asking, revising, requesting alternatives, testing examples, and verifying results.
-
----
-
-## 2. NotebookLM — source-based study
-
-Useful for studying PDFs, articles, notes, and class materials.
-
-Its differentiator is working more closely with sources provided by the user. It can help students summarize materials, generate review questions, organize ideas, and transform long documents into more accessible explanations.
-
----
-
-## 3. Perplexity — AI-assisted research
-
-A good option for searching answers with references, exploring current topics, and finding sources quickly.
-
-It should be used with critical review, especially for academic, legal, medical, scientific, or professional topics.
-
----
-
-## 4. Claude — reading, writing, and long-document analysis
-
-It can be useful for summarizing long texts, reviewing arguments, structuring essays, and working with complex documents.
-
-It is an interesting tool for those who need to handle long texts, planning, analytical writing, and content review.
-
----
-
-## 5. Gamma — presentation creation
-
-Helps transform ideas into presentations, visual documents, and simple pages.
-
-It can be useful for students who need to present assignments, projects, reports, or ideas in a visually organized way.
-
-Even so, the student should review the structure, arguments, and data. A beautiful presentation does not guarantee a correct presentation.
-
----
-
-## 6. Canva AI — design and visual communication
-
-Useful for posts, presentations, resumes, promotional materials, infographics, and simple visual pieces.
-
-It can help students improve the visual communication of projects, especially when they do not have advanced design experience.
-
----
-
-## 7. Cursor — AI-assisted programming
-
-A code editor with AI assistance features.
-
-It can help plan, write, review, and explain code inside a project. It is useful for those learning programming, but should be used carefully: generating code without understanding it can create dependence and errors that are difficult to fix.
-
----
-
-## 8. GitHub Copilot — programming support
-
-Helps with code autocomplete, generating functions, explaining snippets, and accelerating common development tasks.
-
-It is especially useful for those already learning programming and wanting to practice with review.
-
-Ideally, it should be used as a tutor and accelerator, not as a substitute for learning logic, data structures, tests, and good practices.
-
----
-
-## 9. Zapier or Make — task automation
-
-They allow users to create workflows between applications, such as sending automatic emails, updating spreadsheets, organizing forms, creating notifications, and integrating tools without needing to program everything from scratch.
-
-They are good tools for understanding process automation, something increasingly important in the job market.
-
----
-
-## 10. Suno, Runway, or ElevenLabs — multimedia creation
-
-Tools of this type allow users to explore music, video, synthetic voice, and audiovisual creation.
-
-They are useful for communication, marketing, education, prototyping, and creative projects.
-
-They also raise important ethical questions, especially around authorship, voice use, image use, copyright, and synthetic content creation.
-
----
-
-# 9. The student of the future will not be only an AI user
+# 8. The student of the future will not be only an AI user
 
 The student of the future needs to be more than someone who “uses tools.”
 
@@ -836,7 +735,7 @@ In the end, perhaps the future will not simply belong to those who use AI, but t
 
 ---
 
-# 10. A prediction for 2044
+# 9. What the future will be like in 2044
 
 In 2044, perhaps the question will no longer be whether we use AI. Everyone will use AI in some way.
 
